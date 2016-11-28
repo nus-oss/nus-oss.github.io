@@ -4,9 +4,9 @@ We have a number of OSS projects that are especially suitable for NUS students t
 | Project(s) | KLoC | Languages | Description |
 | --- | --- | --- | --- |
 | [OSS-GENERIC](https://github.com/oss-generic) | 1 | Markdown, HTML, CSS | Generic OSS resources especially for projects hosted on GitHub | 
-| [SE-EDU](https://github.com/se-edu) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers |
 | [CS2103 website](https://github.com/nus-cs2103/website) | 5 | HTML, JavaScript, CSS | Module website for CS2103 |
-| [PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint |
+| [SE-EDU](https://github.com/se-edu/main) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers used by more than 100,000 users (see [product website](http://teammatesOnline.info)) |
+| [PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint used by thousands (see [product website](http://powerpointlabs.info)) |
 | [TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Javascript, HTML, CSS | An online feedback management system for education |
 
 ## Benefits 
