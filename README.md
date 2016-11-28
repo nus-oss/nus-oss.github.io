@@ -1,5 +1,5 @@
 # OSS Projects at NUS SoC
-We have a number of OSS projects that are especially suitable for NUS students to learn SE within the context of OSS projects.
+We have a number of OSS projects that are especially suitable for NUS students to level-up their SE within the context of OSS projects.
 
 | Project(s) | KLoC | Languages | Description |
 | --- | --- | --- | --- |
@@ -23,6 +23,8 @@ Doing work outside modules will set you apart from those who are only good in ac
 Each of the projects have their own documentation on how to get started. 
 
 If you have limited experience outside project in school modules, you can start with a smaller project such as those in [SE-EDU](https://github.com/se-edu) or [CS2103 website](https://github.com/nus-cs2103/website) and move to bigger projects after a while. 
+
+Vacations are especially good times to get started on our projects as our projects are more active during those times. We even have dedicated working space in school for those working on our projects during vacation times.
 
 ## Paid internships
 
