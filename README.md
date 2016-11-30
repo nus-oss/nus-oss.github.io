@@ -4,6 +4,7 @@ NUS-OSS is an initiative to help interested NUS students become OSS developers.
 * [Projects](#projects)
 * [Benefits](#benefits)
 * [How to get started](#how-to-get-started)
+* [Earning modular credit for OSS work](#earning-modular-credit-for-oss-work)
 * [Paid internships](#paid-internships)
 
 ## Projects
@@ -33,6 +34,15 @@ Each of the projects have their own documentation on how to get started.
 If you have limited experience outside project in school modules, you can start with a smaller project such as those in [SE-EDU](https://github.com/se-edu) or [CS2103 website](https://github.com/nus-cs2103/website) and move to bigger projects after a while. 
 
 Vacations are especially good times to get started on our projects as our projects are more active during those times. We even have dedicated working space in school for those working on our projects during vacation times.
+
+## Earning modular credit for OSS work
+
+There are several ways to earn modular credit for OSS work
+
+* [CS3281&2 (Thematic Systems Project)](https://github.com/nus-oss/cs3281-website) : In these two modules (to be taken together), student work on existing OSS projects.
+* [CS2103R (Software Engineering - Research)](https://docs.google.com/document/d/1jY9gYuNP9GBpYlGaLGEaYjusrQfBolmluX1rSc9x9dM/pub?embedded=true) : This is a 1 MC add-on to CS2103/T that you can do in the year immediately after you completed CS2103.  
+* [CP3108A/B (Independent Work)](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A) : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects.
+* [CP3200 (SIP)](https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/), [CP3880 (ATAP)](http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/) : Some of the NUS-OSS projects hire interns through these internship programs. 
 
 ## Paid internships
 
