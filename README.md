@@ -1,4 +1,12 @@
 # OSS Projects at NUS SoC
+NUS-OSS is an initiative to help interested NUS students become OSS developers.
+
+* [Projects](#projects)
+* [Benefits](#benefits)
+* [How to get started](#how-to-get-started)
+* [Paid internships](#paid-internships)
+
+## Projects
 We have a number of OSS projects that are especially suitable for NUS students to level-up their SE within the context of OSS projects.
 
 | Project(s) | KLoC | Languages | Description |
