@@ -6,6 +6,7 @@ NUS-OSS is an initiative to help interested NUS students become OSS developers.
 * [How to get started](#how-to-get-started)
 * [Earning modular credit for OSS work](#earning-modular-credit-for-oss-work)
 * [Paid internships](#paid-internships)
+* [Queries](#queries)
 
 ## Projects
 We have a number of OSS projects that are especially suitable for NUS students to level-up their SE within the context of OSS projects.
@@ -52,3 +53,7 @@ For NUS students, it is possible to get paid for work done in these projects.
 * [Google Summer of Code](https://developers.google.com/open-source/gsoc/) : Our projects have taken part in GSoC 2014 (4 internships), 2015 (6 internships), 2016 (7 internships). 
 
 After you have contributed a few PRs any of the projects above, contact project mentor [Dr Damith](http://www.comp.nus.edu.sg/~damithch) to explore the possibilities for paid internships. 
+
+## Queries
+
+If you have questions, please contact project mentor [Dr Damith](http://www.comp.nus.edu.sg/~damithch). 
