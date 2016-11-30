@@ -1,4 +1,4 @@
-# OSS Projects at NUS SoC
+# OSS Projects at [NUS SoC](https://www.comp.nus.edu.sg)
 NUS-OSS is an initiative to help interested NUS students become OSS developers.
 
 * [Projects](#projects)
