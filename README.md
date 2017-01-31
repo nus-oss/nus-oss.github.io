@@ -5,7 +5,7 @@ Projects under NUS-OSS initiative have benefited **a user/developer community of
 * [Projects](#projects)
 * [Benefits](#benefits)
 * [How to get started](#how-to-get-started)
-* [Earning modular credit for OSS work](#earning-modular-credit-for-oss-work)
+* [Earning modular credit](#earning-modular-credit)
 * [Paid internships](#paid-internships)
 * [Queries](#queries)
 
@@ -14,11 +14,11 @@ We have a number of OSS projects that are especially suitable for NUS students t
 
 | Project(s) | KLoC | Languages | Description |
 | --- | --- | --- | --- |
+| [PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefitted more than **350,000** people (see [product website](http://powerpointlabs.info)) |
+| [TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Javascript, HTML, CSS | An online feedback management system for education used by more than **150,000** users (see [product website](http://teammatesOnline.info)) |
+| [SE-EDU](https://github.com/se-edu/main) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  |
 | [OSS-GENERIC](https://github.com/oss-generic) | 1 | Markdown, HTML, CSS | Generic OSS resources especially for projects hosted on GitHub | 
 | [CS2103 website](https://github.com/nus-cs2103/website) | 5 | HTML, JavaScript, CSS | Module website for CS2103 |
-| [SE-EDU](https://github.com/se-edu/main) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  |
-| [PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefitted more than 350,000 people (see [product website](http://powerpointlabs.info)) |
-| [TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Javascript, HTML, CSS | An online feedback management system for education used by more than 150,000 users (see [product website](http://teammatesOnline.info)) |
 | New projects | - | JavaScript, Node.js, Electron, Python | Still in concept stage, to be strated when a suitable developer is available |
 
 ## Benefits 
