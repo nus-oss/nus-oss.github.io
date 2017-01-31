@@ -1,5 +1,6 @@
 # OSS Projects at [NUS SoC](https://www.comp.nus.edu.sg)
-NUS-OSS is an initiative to help interested NUS students become OSS developers.
+NUS-OSS is an initiative to help interested NUS students become OSS developers. 
+Projects under NUS-OSS initiative have benefitted **a user/developer community of more tha half a million**.
 
 * [Projects](#projects)
 * [Benefits](#benefits)
@@ -16,8 +17,8 @@ We have a number of OSS projects that are especially suitable for NUS students t
 | [OSS-GENERIC](https://github.com/oss-generic) | 1 | Markdown, HTML, CSS | Generic OSS resources especially for projects hosted on GitHub | 
 | [CS2103 website](https://github.com/nus-cs2103/website) | 5 | HTML, JavaScript, CSS | Module website for CS2103 |
 | [SE-EDU](https://github.com/se-edu/main) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  |
-| [PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint used by thousands (see [product website](http://powerpointlabs.info)) |
-| [TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Javascript, HTML, CSS | An online feedback management system for education used by more than 100,000 users (see [product website](http://teammatesOnline.info)) |
+| [PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefitted more than 350,000 people (see [product website](http://powerpointlabs.info)) |
+| [TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Javascript, HTML, CSS | An online feedback management system for education used by more than 150,000 users (see [product website](http://teammatesOnline.info)) |
 
 ## Benefits 
 
