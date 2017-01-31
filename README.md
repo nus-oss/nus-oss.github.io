@@ -19,6 +19,7 @@ We have a number of OSS projects that are especially suitable for NUS students t
 | [SE-EDU](https://github.com/se-edu/main) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  |
 | [PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefitted more than 350,000 people (see [product website](http://powerpointlabs.info)) |
 | [TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Javascript, HTML, CSS | An online feedback management system for education used by more than 150,000 users (see [product website](http://teammatesOnline.info)) |
+| New projects | - | JavaScript, Node.js, Electron, Python | Still in concept stage, to be strated when a suitable developer is available |
 
 ## Benefits 
 
@@ -37,7 +38,7 @@ If you have limited experience outside project in school modules, you can start 
 
 Vacations are especially good times to get started on our projects as our projects are more active during those times. We even have dedicated working space in school for those working on our projects during vacation times.
 
-## Earning modular credit for OSS work
+## Earning modular credit
 
 There are several ways to earn modular credit for OSS work
 
@@ -50,7 +51,7 @@ There are several ways to earn modular credit for OSS work
 
 For NUS students, it is possible to get paid for work done in these projects. 
 * Part time internships : Pay depends on the amount of work, $12/hour 
-* Full time internships : ~$2000 per month. These internships are eligible for SIP and ATAP credit.
+* Full time internships : **~$2000** per month. These internships are eligible for SIP and ATAP credit.
 * [Google Summer of Code](https://developers.google.com/open-source/gsoc/) : Our projects have taken part in GSoC 2014 (4 internships), 2015 (6 internships), 2016 (7 internships). 
 
 After you have contributed a few PRs any of the projects above, contact project mentor [Dr Damith](http://www.comp.nus.edu.sg/~damithch) to explore the possibilities for paid internships. 
