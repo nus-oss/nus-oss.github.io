@@ -52,7 +52,7 @@ There are several ways to earn modular credit for OSS work
 For NUS students, it is possible to get paid for work done in these projects. 
 
 * Part time internships : Pay depends on the amount of work, $12/hour 
-* Full time internships : **~$1500** per month. These internships are eligible for SIP and ATAP credit.
+* Full time internships : **$1200-1500** per month. These internships are eligible for SIP and ATAP credit.
 * [Google Summer of Code](https://developers.google.com/open-source/gsoc/) : Our projects have taken part in GSoC 2014 (4 internships), 2015 (6 internships), 2016 (7 internships) 2017 (9 internships). 
 
 After you have contributed a few PRs any of the projects above, contact project mentor [Dr Damith](http://www.comp.nus.edu.sg/~damithch) to explore the possibilities for paid internships. 
