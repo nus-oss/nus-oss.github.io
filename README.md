@@ -49,7 +49,7 @@ There are several ways to earn modular credit for OSS work
 
 ## Paid internships
 
-<img src="images/2017-inters.png"/><br>
+<img src="images/2017-interns.png" width="800"/><br>
 <sub>Some of the interns from 2017 summer batch</sub>
 
 For NUS students, it is possible to get paid for work done in these projects. 
