@@ -56,11 +56,19 @@ For NUS students, it is possible to get paid for work done in these projects.
 
 * Part time internships : Pay depends on the amount of work, $12/hour 
 * Full time internships : **$1200-1500** per month. These internships are eligible for SIP and ATAP credit.
-* [Google Summer of Code](https://developers.google.com/open-source/gsoc/) : Our projects have taken part in GSoC 2014 (4 internships), 2015 (6 internships), 2016 (7 internships) 2017 (9 internships). 
+* [Google Summer of Code](https://developers.google.com/open-source/gsoc/) : Our projects have taken part in GSoC 2014 (4 internships), 2015 (6 internships), 2016 (7 internships) 2017 (9 internships).
+
+**Before you apply**
+
+Before you apply, ensure that you match both our expectations given below.
+* Due to the nature of our projects, we prefer to select interns who can remain involved with the project (on a lightweight basis, possibly paid as part time work) even after the internship is over, and help with running the project e.g., mentoring new contributors, review PRs, etc. These projects are currently run by such alumni and that is the only way we can sustain these projects.
+* Although our pay is higher than recommended pay for interns, we prefer to recruit students who are interested in our projects for the right reasons (e.g., as an opportunity to improve SE skills, make an impact to many users, or due to genuine interest in the product or the technologies being used etc.) rather than those looking at it purely as an opportunity to earn some money.
+
 
 **How to apply:**
 * SEP/ATAP internships (NUS students): Apply via the school's internship application system.
-* Other types of internships: After you have contributed a few PRs any of the projects above, contact project mentor [Dr Damith](http://www.comp.nus.edu.sg/~damithch) to explore the possibilities for paid internships. 
+* Other full time interships: contact project mentor prof Damith (contact given below)
+* Part time work: After you have contributed a few PRs to any of the projects above, contact project mentor prof Damith (contact given below) to explore possibilities for paid internships. 
 
 ## Queries
 
