@@ -17,7 +17,7 @@ We have a number of OSS projects that are especially suitable for NUS students t
 | [PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefitted more than **500,000** people (see [product website](/http://www.comp.nus.edu.sg/~pptlabs/)) |
 | [TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Javascript, HTML, CSS | An online feedback management system for education used by more than **200,000** users (see [product website](http://teammatesOnline.info)) |
 | [SE-EDU](https://github.com/se-edu/main) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  |
-| [RepoSense](https://github.com/reposense/reposense) | 2-5 | Java, Javascript, HTML, CSS | A tool to monitor contirubtions to multiple Git repositories  |
+| [RepoSense](https://github.com/reposense/reposense) | 2-5 | Java, Javascript, HTML, CSS | A tool to monitor contributions to multiple Git repositories  |
 | [OSS-GENERIC](https://github.com/oss-generic) | 1 | Markdown, HTML, CSS | Generic OSS resources especially for projects hosted on GitHub | 
 | [MarkBind](https://markbind.github.io/markbind) | 2 | Node.js HTML, JavaScript, CSS | A tool for generating educational websites from Markdown syntax. |
 
