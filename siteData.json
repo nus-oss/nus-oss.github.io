@@ -1,0 +1,29 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "headings": {
+        "oss-projects-at-nus-so-c": "OSS Projects at NUS SoC"
+      },
+      "src": "README.md",
+      "title": "",
+      "layout": "default"
+    },
+    {
+      "headings": {
+        "oss-projects-at-nus-so-c": "OSS Projects at NUS SoC",
+        "projects": "Projects",
+        "benefits": "Benefits",
+        "how-to-get-started": "How to get started",
+        "earning-modular-credit": "Earning modular credit",
+        "paid-internships": "Paid internships",
+        "queries": "Queries"
+      },
+      "title": "NUS-OSS Projects",
+      "footer": "footer.md",
+      "pageNav": 2,
+      "src": "index.md",
+      "layout": "default"
+    }
+  ]
+}
