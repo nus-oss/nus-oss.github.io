@@ -1,2 +1,4 @@
 .idea/
 *.iml
+_site/
+_markbind/logs/

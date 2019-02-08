@@ -1,0 +1,22 @@
+{
+  "baseUrl": "",
+  "titlePrefix": "",
+  "ignore": [
+    "_markbind/layouts/*",
+    "_markbind/logs/*",
+    "_site/*",
+    "site.json",
+    "*.md",
+    "*.mbd",
+    ".git/*"
+  ],
+  "pages": [
+    {
+      "glob": "**/*.+(md|mbd)"
+    }
+  ],
+  "deploy": {
+    "message": "Site Update.",
+    "branch": "master"
+  }
+}
