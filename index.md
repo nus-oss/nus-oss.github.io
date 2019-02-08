@@ -8,7 +8,7 @@
 <navbar placement="top" type="inverse">
   <a slot="brand" href="{{baseUrl}}/index.html" title="Home" class="navbar-brand">[NUS-OSS] <md>**OSS Projects at NUS SoC**</md></a>
   <li slot="right">
-    <a href="https://github.com/MarkBind/markbind" target="_blank" class="nav-link">{{ fab_github }}</a>
+    <a href="https://github.com/nus-oss/nus-oss.github.io" target="_blank" class="nav-link">{{ fab_github }}</a>
   </li>
 </navbar>
 
