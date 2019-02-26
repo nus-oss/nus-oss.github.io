@@ -32,7 +32,7 @@ Project(s) | KLoC | Languages | Description |
 [TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Angular, Javascript, HTML, CSS | An online feedback management system for education used by more than **300,000** users (see [product website](http://teammatesOnline.info)) |
 [SE-EDU](https://github.com/se-edu/main) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  |
 [RepoSense](https://github.com/reposense/reposense) | 2-5 | Java, Javascript, HTML, CSS | A tool to monitor contributions to multiple Git repositories  |
-[MarkBind](https://markbind.github.io/markbind) | 2 | Node.js HTML, JavaScript, CSS | A tool for generating educational websites from Markdown syntax. |
+[MarkBind](https://markbind.org) | 2 | Node.js HTML, JavaScript, CSS | A tool for generating educational websites from Markdown syntax. |
 TBD | - | TypeScript, Angular, Electron | A new project currently at prototyping stage. A Desktop App for anonymous peer testing of software products. |
 
 
