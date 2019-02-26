@@ -3,7 +3,7 @@
   "pages": [
     {
       "headings": {
-        "oss-projects-at-nus-so-c": "OSS Projects at NUS SoC"
+        "oss-projects-at-nus-soc": "OSS Projects at NUS SoC"
       },
       "src": "README.md",
       "title": "",
