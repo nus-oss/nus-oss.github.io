@@ -87,4 +87,4 @@ Before you apply, ensure that you match both our expectations given below.
 
 ## {{ icon_tick }} Queries
 
-If you have questions, please contact project mentor [Dr Damith](http://www.comp.nus.edu.sg/~damithch).
+If you have questions, please contact project mentor [Dr Damith](http://www.comp.nus.edu.sg/~damithch) or write to `nus-oss`at`comp.nus.edu.sg`.
