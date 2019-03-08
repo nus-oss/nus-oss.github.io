@@ -1,1 +1,1 @@
-<span id="icon_tick">%%{{ fas_arrow_alt_circle_right | safe }}%%</span>
+<span id="icon_tick">%%:fas-arrow-alt-circle-right:%%</span>
