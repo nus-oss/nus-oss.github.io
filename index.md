@@ -18,7 +18,7 @@
   <div class="container">
     <h1 class="display-4">OSS Projects at NUS SoC</h1>
     <p class="lead"><md>NUS-OSS is an initiative to help interested [NUS SoC](https://www.comp.nus.edu.sg) students become OSS developers.<br>
-        Projects under NUS-OSS initiative have benefited **more than ¾ million users**.</md></p>
+        Projects under NUS-OSS initiative have benefited **more than a million users**.</md></p>
   </div>
 </div>
 
@@ -28,12 +28,13 @@ We have a number of OSS projects that are especially suitable for NUS students t
 
 Project(s) | KLoC | Languages | Description |
 --- | --- | --- | --- |
-[PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefited more than **500,000** people (see [product website](/http://www.comp.nus.edu.sg/~pptlabs/)) |
-[TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Angular, Javascript, HTML, CSS | An online feedback management system for education used by more than **300,000** users (see [product website](http://teammatesOnline.info)) |
-[SE-EDU](https://github.com/se-edu/main) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  |
-[RepoSense](https://github.com/reposense/reposense) | 2-5 | Java, Javascript, HTML, CSS | A tool to monitor contributions to multiple Git repositories  |
-[MarkBind](https://markbind.org) | 2 | Node.js HTML, JavaScript, CSS | A tool for generating educational websites from Markdown syntax. |
-TBD | - | TypeScript, Angular, Electron | A new project currently at prototyping stage. A Desktop App for anonymous peer testing of software products. |
+[PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefited more than **500,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)) |
+[TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Angular, Javascript, HTML, CSS | An online feedback management system for education used by more than **400,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates))) |
+[SE-EDU](https://github.com/se-edu/main) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org))|
+[RepoSense](https://github.com/reposense/reposense) | 10 | Java, Javascript, HTML, CSS | A tool to monitor contributions to multiple Git repositories. ([:fab-github: project website](https://github.com/reposense/reposense)))  |
+[MarkBind](https://markbind.org) | 5 | Node.js HTML, JavaScript, CSS | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind))) |
+[CATcher](https://github.com/CATcher-org/CATcher/) | 5 | TypeScript, Angular, Electron, Python | A Desktop App for anonymous peer testing of software products. ([:fab-github: project website](https://github.com/CATcher-org/CATcher/) |
+SEEker | 5 | Python | A library for giving automated feedback for multiple GitHub repositories. |
 
 
 ## {{ icon_tick }} Benefits
@@ -43,7 +44,7 @@ Doing work outside modules will set you apart from those who are only good in ac
 * paid internships in our OSS projects (more info [below](#paid-internships))
 * good internship offers from other companies for SIP/ATAP
 * entry to selection-based modules such as CS3281&2, CS3216, CS3217
-* CS2103 tutorships
+* Tutorships in related modules
 
 ## {{ icon_tick }} How to get started
 
@@ -61,6 +62,7 @@ There are several ways to earn modular credit for OSS work
 * [CS2103R (Software Engineering - Research)](https://docs.google.com/document/d/1jY9gYuNP9GBpYlGaLGEaYjusrQfBolmluX1rSc9x9dM/pub?embedded=true) : This is a 1 MC add-on to CS2103/T that you can do in the year immediately after you completed CS2103.
 * [CP3108A/B (Independent Work, 2/4MC S/U)](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A), [CP3106 (Independent Work, 4MC, Graded)](https://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3106) : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects.
 * [CP3200 (SIP)](https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/), [CP3880 (ATAP)](http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/) : Some of the NUS-OSS projects hire interns through these internship programs.
+* [FYP (CP4101)](https://www.comp.nus.edu.sg/programmes/ug/project/fyp/), [Computing Project (CP4106)](https://www.comp.nus.edu.sg/programmes/ug/project/cp4106/): Modules aimed at final year students.
 
 ## {{ icon_tick }} Paid internships
 
@@ -69,7 +71,7 @@ There are several ways to earn modular credit for OSS work
 
 For NUS students, it is possible to get paid for work done in these projects.
 
-* Part time internships : Pay depends on the amount of work, $12/hour
+* Part time internships : Pay depends on the amount of work, at normal [NSWS scheme](http://www.nus.edu.sg/osa/about/join-us/nsws)
 * Full time internships : **$1000-1500** per month. These internships are eligible for SIP and ATAP credit.
 * [Google Summer of Code](https://developers.google.com/open-source/gsoc/): Our projects have taken part in GSoC 2014 (4 internships), 2015 (6 internships), 2016 (7 internships) 2017 (9 internships), 2018 (5 internships).
 
