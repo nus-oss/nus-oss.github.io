@@ -18,7 +18,7 @@
   <div class="container">
     <h1 class="display-4">OSS Projects at NUS SoC</h1>
     <p class="lead"><md>NUS-OSS is an initiative to help interested [NUS SoC](https://www.comp.nus.edu.sg) students become OSS developers.<br>
-        Projects under NUS-OSS initiative have benefited **more than a million users**.</md></p>
+        Projects under the NUS-OSS initiative have benefited **more than a million users**.</md></p>
   </div>
 </div>
 
