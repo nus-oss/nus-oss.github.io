@@ -28,10 +28,10 @@ We have a number of OSS projects that are especially suitable for NUS students t
 
 Project(s) | KLoC | Languages | Description |
 --- | --- | --- | --- |
-[PowerPointLabs](https://github.com/powerpointlabs/powerpointlabs) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefited more than **500,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)) |
-[TEAMMATES](https://github.com/teammates/teammates) | 125 | Java EE, Angular, Javascript, HTML, CSS | An online feedback management system for education used by more than **400,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates))) |
-[SE-EDU](https://github.com/se-edu/main) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org))|
-[RepoSense](https://github.com/reposense/reposense) | 10 | Java, Javascript, HTML, CSS | A tool to monitor contributions to multiple Git repositories. ([:fab-github: project website](https://github.com/reposense/reposense)))  |
+[PowerPointLabs](http://www.comp.nus.edu.sg/~pptlabs/) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefited more than **1,000,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)) |
+[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS | An online feedback management system for education used by more than **600,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates))) |
+[SE-EDU](https://se-education.org) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org))|
+[RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS | A tool to monitor contributions to multiple Git repositories. ([:fab-github: project website](https://github.com/reposense/reposense)))  |
 [MarkBind](https://markbind.org) | 5 | Node.js HTML, JavaScript, CSS | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind))) |
 [CATcher](https://github.com/CATcher-org/CATcher/) | 5 | TypeScript, Angular, Electron, Python | A Desktop App for anonymous peer testing of software products. ([:fab-github: project website](https://github.com/CATcher-org/CATcher/) |
 SEEker | 5 | Python | A library for giving automated feedback for multiple GitHub repositories. |
@@ -44,7 +44,7 @@ Doing work outside modules will set you apart from those who are only good in ac
 * paid internships in our OSS projects (more info [below](#paid-internships))
 * good internship offers from other companies for SIP/ATAP
 * entry to selection-based modules such as CS3281&2, CS3216, CS3217
-* Tutorships in related modules
+* tutorships in related modules
 
 ## {{ icon_tick }} How to get started
 
@@ -58,7 +58,7 @@ Vacations are especially good times to get started on our projects as our projec
 
 There are several ways to earn modular credit for OSS work
 
-* [CS3281&2 (Thematic Systems Project)](https://nus-cs3281.github.io/website/) : In these two modules (to be taken together), student work on existing OSS projects.
+* [CS3281&2 (Thematic Systems Project)](https://nus-cs3281.github.io/website/) : In these two modules, student work on existing OSS projects, including NUS-OSS projects.
 * [CS2103R (Software Engineering - Research)](https://docs.google.com/document/d/1jY9gYuNP9GBpYlGaLGEaYjusrQfBolmluX1rSc9x9dM/pub?embedded=true) : This is a 1 MC add-on to CS2103/T that you can do in the year immediately after you completed CS2103.
 * [CP3108A/B (Independent Work, 2/4MC S/U)](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A), [CP3106 (Independent Work, 4MC, Graded)](https://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3106) : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects.
 * [CP3200 (SIP)](https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/), [CP3880 (ATAP)](http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/) : Some of the NUS-OSS projects hire interns through these internship programs.
