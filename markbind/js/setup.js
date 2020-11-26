@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-Vue.use(VueStrap);
+Vue.use(MarkBindVue);
 
 function scrollToUrlAnchorHeading() {
   if (window.location.hash) {
@@ -13,32 +13,45 @@ function scrollToUrlAnchorHeading() {
   }
 }
 
-function flattenModals() {
-  jQuery('.modal').each((index, modal) => {
-    jQuery(modal).detach().appendTo(jQuery('#app'));
-  });
+function insertCss(cssCode) {
+  const newNode = document.createElement('style');
+  newNode.innerHTML = cssCode;
+  document.getElementsByTagName('head')[0].appendChild(newNode);
 }
 
-function setupAnchors() {
+function setupAnchorsForFixedNavbar() {
+  const headerSelector = jQuery('header[fixed]');
+  const isFixed = headerSelector.length !== 0;
+  if (!isFixed) {
+    return;
+  }
+
+  const headerHeight = headerSelector.height();
+  const bufferHeight = 1;
+  jQuery('.nav-inner').css('padding-top', `calc(${headerHeight}px + 1rem)`);
+  jQuery('#content-wrapper').css('padding-top', `calc(${headerHeight}px)`);
+  insertCss(
+    `span.anchor {
+    position: relative;
+    top: calc(-${headerHeight}px - ${bufferHeight}rem)
+    }`,
+  );
+  insertCss(`span.card-container::before {
+        display: block;
+        content: '';
+        margin-top: calc(-${headerHeight}px - ${bufferHeight}rem);
+        height: calc(${headerHeight}px + ${bufferHeight}rem);
+      }`);
   jQuery('h1, h2, h3, h4, h5, h6, .header-wrapper').each((index, heading) => {
     if (heading.id) {
-      jQuery(heading).on('mouseenter',
-                         () => jQuery(heading).find('.fa.fa-anchor').css('visibility', 'visible'));
-      jQuery(heading).on('mouseleave',
-                         () => jQuery(heading).find('.fa.fa-anchor').css('visibility', 'hidden'));
+      jQuery(heading).removeAttr('id'); // to avoid duplicated id problem
     }
-  });
-  jQuery('.fa-anchor').each((index, anchor) => {
-    jQuery(anchor).on('click', function () {
-      window.location.href = jQuery(this).attr('href');
-    });
   });
 }
 
 function updateSearchData(vm) {
   jQuery.getJSON(`${baseUrl}/siteData.json`)
     .then((siteData) => {
-      // eslint-disable-next-line no-param-reassign
       vm.searchData = siteData.pages;
     });
 }
@@ -66,33 +79,24 @@ function executeAfterCreatedRoutines() {
 }
 
 function executeAfterMountedRoutines() {
-  flattenModals();
   scrollToUrlAnchorHeading();
-  setupAnchors();
+  setupAnchorsForFixedNavbar();
   MarkBind.executeAfterSetupScripts.resolve();
 }
 
-function setupSiteNav() {
-  // Add event listener for site-nav-btn to toggle itself and site navigation elements.
-  const siteNavBtn = document.getElementById('site-nav-btn');
-  if (siteNavBtn) {
-    siteNavBtn.addEventListener('click', function () {
-      this.classList.toggle('shift');
-      document.getElementById('site-nav').classList.toggle('open');
-      document.getElementById('site-nav-btn-wrap').classList.toggle('open');
-    });
+// eslint-disable-next-line no-unused-vars
+function handleSiteNavClick(elem, useAnchor = true) {
+  if (useAnchor) {
+    const anchorElements = elem.getElementsByTagName('a');
+    if (anchorElements.length) {
+      window.location.href = anchorElements[0].href;
+      return;
+    }
   }
-  // Creates event listener for all dropdown-btns in page.
-  Array.prototype.forEach.call(
-    document.getElementsByClassName('dropdown-btn'),
-    dropdownBtn => dropdownBtn.addEventListener('click', function () {
-      this.classList.toggle('dropdown-btn-open');
-      const dropdownContent = this.nextElementSibling;
-      const dropdownIcon = this.lastElementChild;
-      dropdownContent.classList.toggle('dropdown-container-open');
-      dropdownIcon.classList.toggle('rotate-icon');
-    }),
-  );
+  const dropdownContent = elem.nextElementSibling;
+  const dropdownIcon = elem.lastElementChild;
+  dropdownContent.classList.toggle('site-nav-dropdown-container-open');
+  dropdownIcon.classList.toggle('site-nav-rotate-icon');
 }
 
 function setup() {
@@ -106,11 +110,10 @@ function setup() {
       executeAfterMountedRoutines();
     },
   });
-  setupSiteNav();
 }
 
 function setupWithSearch() {
-  const { searchbar } = VueStrap.components;
+  const { searchbar } = MarkBindVue.components;
   // eslint-disable-next-line no-unused-vars
   const vm = new Vue({
     el: '#app',
@@ -137,8 +140,40 @@ function setupWithSearch() {
       updateSearchData(this);
     },
   });
-  setupSiteNav();
 }
+
+function makeInnerGetterFor(attribute) {
+  return (element) => {
+    const innerElement = element.querySelector(`[data-mb-html-for="${attribute}"]`);
+    return innerElement === null ? '' : innerElement.innerHTML;
+  };
+}
+
+function makeHtmlGetterFor(componentType, attribute) {
+  return (element) => {
+    const contentWrapper = document.getElementById(element.attributes.for.value);
+    return contentWrapper.dataset.mbComponentType === componentType
+      ? makeInnerGetterFor(attribute)(contentWrapper) : '';
+  };
+}
+
+/* eslint-disable no-unused-vars */
+/*
+ These getters are used by triggers to get their popover/tooltip content.
+ We need to create a completely new popover/tooltip for each trigger due to bootstrap-vue's implementation,
+ so this is how we retrieve our contents.
+*/
+const popoverContentGetter = makeHtmlGetterFor('popover', 'content');
+const popoverHeaderGetter = makeHtmlGetterFor('popover', 'header');
+const popoverInnerContentGetter = makeInnerGetterFor('content');
+const popoverInnerHeaderGetter = makeInnerGetterFor('header');
+
+const popoverGenerator = { title: popoverHeaderGetter, content: popoverContentGetter };
+const popoverInnerGenerator = { title: popoverInnerHeaderGetter, content: popoverInnerContentGetter };
+
+const tooltipContentGetter = makeHtmlGetterFor('tooltip', '_content');
+const tooltipInnerContentGetter = makeInnerGetterFor('_content');
+/* eslint-enable no-unused-vars */
 
 if (enableSearch) {
   setupWithSearch();

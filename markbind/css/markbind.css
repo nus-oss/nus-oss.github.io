@@ -11,6 +11,10 @@ code {
     word-break: normal;
 }
 
+mark code {
+    background: #ffffffd4;
+}
+
 pre.hljs > code {
     background: none;
 }
@@ -22,6 +26,41 @@ pre > code.hljs {
     border: 1px solid rgb(200, 200, 200);
     border: 1px solid rgba(200, 200, 200, 0.3);
     border-radius: 5px;
+    counter-reset: line;
+}
+
+pre > code.hljs[heading] {
+    border-top-right-radius: 0;
+}
+
+.code-block {
+    position: relative;
+}
+
+.code-block-heading {
+    background-color: #f2f2ff;
+    border-radius: 6px 6px 0 0;
+    color: #8787a5;
+    float: right;
+    font-size: 85%;
+    line-height: 1;
+    max-width: 85%;
+    overflow-wrap: break-word;
+    padding: 0.25em 0.4em;
+    text-align: right;
+}
+
+.inline-markdown-heading {
+    line-height: 1.5;
+}
+
+.code-block-content {
+    clear: both;
+    display: block;
+}
+
+code > span.highlighted {
+    background: lavender;
 }
 
 kbd {
@@ -36,20 +75,6 @@ kbd {
 .btn:focus {
     box-shadow: none !important;
     outline: none !important;
-}
-
-.fa.fa-anchor {
-    color: #ccc;
-    display: inline;
-    font-size: 14px;
-    margin-left: 10px;
-    padding: 3px;
-    text-decoration: none;
-    visibility: hidden;
-}
-
-.fa.fa-anchor:hover {
-    color: #555;
 }
 
 code.hljs.inline {
@@ -84,6 +109,14 @@ code.hljs.inline {
   * This section covers the common styles used within Header, Footer and Side Navigation bars
   */
 
+/* Header */
+
+header[fixed] {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
 /* #app is treated as the main container */
 #app {
     display: flex;
@@ -99,10 +132,10 @@ code.hljs.inline {
 #content-wrapper {
     flex: 1;
     margin: 0 auto;
+    min-width: 0;
     max-width: 1000px;
     padding: 0 20px;
     transition: 0.4s;
-    width: 100%;
     -webkit-transition: 0.4s;
 }
 
@@ -128,12 +161,16 @@ footer {
        specifically for the sticky container to ensure adequate
        spacing between itself and the boundaries of the menus
      */
-    max-height: 90vh;
     overflow-y: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
     padding-top: 1rem;
     top: 0;
+}
+
+/* TODO move this back to markdown-it-attr if bundling is implemented */
+.dimmed {
+    color: #777;
 }
 
 /* Bootstrap small(sm) responsive breakpoint */
@@ -183,7 +220,7 @@ footer {
 
 /* Temporary Anti-FOUC Styles */
 
-/* By default, some VueStrap components break the layout of the page before Vue is mounted,
+/* By default, some of MarkBind's Vue components break the layout of the page before Vue is mounted,
 so we apply temporary styles to fix the layout until Vue correctly updates the DOM. */
 
 .temp-navbar {
@@ -296,4 +333,111 @@ panel[minimized]:not([expanded])::before {
 
 li.footnote-item:target {
     background-color: #eee;
+}
+
+.hljs:not(.inline) > span {
+    display: block;
+}
+
+.hljs:not(.inline):not(.no-line-numbers) > span {
+    padding: 0 0.5em 0 3.5em;
+    position: relative;
+}
+
+/* display line numbers beside each span */
+.hljs:not(.inline):not(.no-line-numbers) > span::before {
+    border-right: 1px solid #ddd;
+    display: inline-block;
+    color: #888;
+    content: counter(line);
+    counter-increment: line;
+    left: 0;
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 3em;
+}
+
+/* hide popover, modal, tooltip content */
+[data-mb-html-for] {
+    display: none;
+}
+
+/* styles for triggers */
+.trigger {
+    border-bottom: 1px dotted currentColor;
+}
+
+.trigger-click {
+    cursor: pointer;
+    border-bottom: 1px dashed currentColor;
+}
+
+.modal.mb-zoom {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.modal.mb-zoom.show {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* "Copy" code block button */
+pre {
+    position: relative;
+}
+
+.copy-btn {
+    background-color: #b4b4b9;
+    border-radius: 0.25rem;
+    color: #f8f8ff;
+    display: inline-block;
+    font-size: 75%;
+    line-height: 1;
+    padding: 0.25em 0.4em;
+    position: absolute;
+    right: 0.5em;
+    text-align: center;
+    top: 0.4em;
+    white-space: nowrap;
+}
+
+.copy-btn:hover {
+    color: #555;
+}
+
+.copy-btn-body {
+    align-items: center;
+    display: flex;
+}
+
+.copy-btn svg {
+    fill: currentColor;
+    margin-right: 0.4em;
+}
+
+.copy-btn-label {
+    font-size: 11px;
+}
+
+.copy-btn:focus {
+    outline: none;
+}
+
+/* Octicon sizing */
+.octicon {
+    height: 1em;
+    width: 1em;
 }

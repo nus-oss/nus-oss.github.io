@@ -5,19 +5,19 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.7.0">
+  <meta name="generator" content="MarkBind 2.15.2">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NUS-OSS Projects</title>
   <link rel="stylesheet" href="markbind/css/bootstrap.min.css">
   <link rel="stylesheet" href="markbind/css/bootstrap-vue.min.css">
   <link rel="stylesheet" href="markbind/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+  <link rel="stylesheet" href="markbind/css/octicons.css">
   <link rel="stylesheet" href="markbind/css/github.min.css">
   <link rel="stylesheet" href="markbind/css/markbind.css">
+  <link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css">
   <link rel="stylesheet" href="markbind/layouts/default/styles.css">
-
   <link rel="stylesheet" href="markbind/css/page-nav.css">
-
   <link rel="icon" href="/favicon.ico">
 </head>
 
@@ -29,17 +29,18 @@
         <navbar placement="top" type="inverse" class="temp-navbar">
           <a slot="brand" href="/index.html" title="Home" class="navbar-brand">[NUS-OSS] <span><strong>OSS Projects at NUS SoC</strong></span></a>
           <li slot="right">
-            <a href="https://github.com/nus-oss/nus-oss.github.io" target="_blank" class="nav-link"></a></li>
+            <a href="https://github.com/nus-oss/nus-oss.github.io" target="_blank" class="nav-link"></a>
+          </li>
         </navbar>
         <br>
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
-            <h1 class="display-4">OSS Projects at NUS SoC</h1>
+            <h1 class="display-4" id="oss-projects-at-nus-soc">OSS Projects at NUS SoC<a class="fa fa-anchor" href="#oss-projects-at-nus-soc" onclick="event.stopPropagation()"></a></h1>
             <p class="lead"><span>NUS-OSS is an initiative to help interested <a href="https://www.comp.nus.edu.sg">NUS SoC</a> students become OSS developers.<br>
-Projects under the NUS-OSS initiative have benefited <strong>more than a million users</strong>.</span></p>
+                Projects under the NUS-OSS initiative have benefited <strong>more than a million users</strong>.</span></p>
           </div>
         </div>
-        <h2 id="projects"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Projects<a class="fa fa-anchor" href="#projects"></a></h2>
+        <h2 id="projects"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Projects<a class="fa fa-anchor" href="#projects" onclick="event.stopPropagation()"></a></h2>
         <p>We have a number of OSS projects that are especially suitable for NUS students to level-up their SE within the context of OSS projects.</p>
         <div class="table-responsive">
           <table class="markbind-table table table-bordered table-striped">
@@ -53,26 +54,25 @@ Projects under the NUS-OSS initiative have benefited <strong>more than a million
             </thead>
             <tbody>
               <tr>
-                <td><a href="https://github.com/powerpointlabs/powerpointlabs">PowerPointLabs</a></td>
+                <td><a href="http://www.comp.nus.edu.sg/~pptlabs/">PowerPointLabs</a></td>
                 <td>60</td>
                 <td>C#</td>
-                <td>A productivity plugin for Microsoft Powerpoint estimated to have benefited more than <strong>500,000</strong> people (<a href="http://www.comp.nus.edu.sg/~pptlabs/"><span aria-hidden="true" class="fas fa-home"></span> product website</a>,
-                  <a href="https://github.com/powerpointlabs/powerpointlabs"><span aria-hidden="true" class="fab fa-github"></span> project website</a>)</td>
+                <td>A productivity plugin for Microsoft Powerpoint estimated to have benefited more than <strong>1,000,000</strong> people (<a href="http://www.comp.nus.edu.sg/~pptlabs/"><span aria-hidden="true" class="fas fa-home"></span> product website</a>, <a href="https://github.com/powerpointlabs/powerpointlabs"><span aria-hidden="true" class="fab fa-github"></span> project website</a>)</td>
               </tr>
               <tr>
-                <td><a href="https://github.com/teammates/teammates">TEAMMATES</a></td>
+                <td><a href="https://teammatesv4.appspot.com/">TEAMMATES</a></td>
                 <td>125</td>
                 <td>Java EE, Angular, Javascript, HTML, CSS</td>
-                <td>An online feedback management system for education used by more than <strong>400,000</strong> users (<a href="https://teammatesv4.appspot.com/"><span aria-hidden="true" class="fas fa-home"></span> product website</a>, <a href="https://github.com/teammates/teammates"><span aria-hidden="true" class="fab fa-github"></span> project website</a>))</td>
+                <td>An online feedback management system for education used by more than <strong>600,000</strong> users (<a href="https://teammatesv4.appspot.com/"><span aria-hidden="true" class="fas fa-home"></span> product website</a>, <a href="https://github.com/teammates/teammates"><span aria-hidden="true" class="fab fa-github"></span> project website</a>))</td>
               </tr>
               <tr>
-                <td><a href="https://github.com/se-edu/main">SE-EDU</a></td>
+                <td><a href="https://se-education.org">SE-EDU</a></td>
                 <td>1-10</td>
                 <td>Java</td>
                 <td>A collection of sample projects and other resources for SE students and teachers (<a href="https://se-education.org"><span aria-hidden="true" class="fas fa-home"></span> website</a>)</td>
               </tr>
               <tr>
-                <td><a href="https://github.com/reposense/reposense">RepoSense</a></td>
+                <td><a href="https://reposense.org">RepoSense</a></td>
                 <td>10</td>
                 <td>Java, Javascript, HTML, CSS</td>
                 <td>A tool to monitor contributions to multiple Git repositories. (<a href="https://github.com/reposense/reposense"><span aria-hidden="true" class="fab fa-github"></span> project website</a>))</td>
@@ -98,35 +98,31 @@ Projects under the NUS-OSS initiative have benefited <strong>more than a million
             </tbody>
           </table>
         </div>
-        <h2 id="benefits"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Benefits<a class="fa fa-anchor" href="#benefits"></a></h2>
+        <h2 id="benefits"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Benefits<a class="fa fa-anchor" href="#benefits" onclick="event.stopPropagation()"></a></h2>
         <p>Doing work outside modules will set you apart from those who are only good in academic work and will increase your chances of getting,</p>
         <ul>
           <li>paid internships in our OSS projects (more info <a href="#paid-internships">below</a>)</li>
           <li>good internship offers from other companies for SIP/ATAP</li>
           <li>entry to selection-based modules such as CS3281&amp;2, CS3216, CS3217</li>
-          <li>Tutorships in related modules</li>
+          <li>tutorships in related modules</li>
         </ul>
-        <h2 id="how-to-get-started"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> How to get started<a class="fa fa-anchor" href="#how-to-get-started"></a></h2>
+        <h2 id="how-to-get-started"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> How to get started<a class="fa fa-anchor" href="#how-to-get-started" onclick="event.stopPropagation()"></a></h2>
         <p>Each of the projects have their own documentation on how to get started.</p>
         <p>If you have limited experience outside project in school modules, you can start with a smaller project such as those in <a href="https://github.com/se-edu">SE-EDU</a> and move to bigger projects after a while.</p>
         <p>Vacations are especially good times to get started on our projects as our projects are more active during those times. We even have dedicated working space in school for those working on our projects during vacation times.</p>
-        <h2 id="earning-modular-credit"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Earning modular credit<a class="fa fa-anchor" href="#earning-modular-credit"></a></h2>
+        <h2 id="earning-modular-credit"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Earning modular credit<a class="fa fa-anchor" href="#earning-modular-credit" onclick="event.stopPropagation()"></a></h2>
         <p>There are several ways to earn modular credit for OSS work</p>
         <ul>
-          <li><a href="https://nus-cs3281.github.io/website/">CS3281&amp;2 (Thematic Systems Project)</a> : In these two modules (to be taken together), student work on existing OSS projects.</li>
-          <li><a href="https://docs.google.com/document/d/1jY9gYuNP9GBpYlGaLGEaYjusrQfBolmluX1rSc9x9dM/pub?embedded=true">CS2103R (Software Engineering - Research)</a> : This is a 1 MC add-on to CS2103/T that you can do in the year immediately after you completed
-            CS2103.
-          </li>
-          <li><a href="http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A">CP3108A/B (Independent Work, 2/4MC S/U)</a>, <a href="https://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3106">CP3106 (Independent Work, 4MC, Graded)</a> : These modules can be used
-            to earn 2MC/4MC for work done in NUS-OSS projects.</li>
-          <li><a href="https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/">CP3200 (SIP)</a>, <a href="http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/">CP3880 (ATAP)</a> : Some of the NUS-OSS projects hire interns through these internship
-            programs.
-          </li>
+          <li><a href="https://nus-cs3281.github.io/website/">CS3281&amp;2 (Thematic Systems Project)</a> : In these two modules, student work on existing OSS projects, including NUS-OSS projects.</li>
+          <li><a href="https://docs.google.com/document/d/1jY9gYuNP9GBpYlGaLGEaYjusrQfBolmluX1rSc9x9dM/pub?embedded=true">CS2103R (Software Engineering - Research)</a> : This is a 1 MC add-on to CS2103/T that you can do in the year immediately after you completed CS2103.</li>
+          <li><a href="http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A">CP3108A/B (Independent Work, 2/4MC S/U)</a>, <a href="https://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3106">CP3106 (Independent Work, 4MC, Graded)</a> : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects.</li>
+          <li><a href="https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/">CP3200 (SIP)</a>, <a href="http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/">CP3880 (ATAP)</a> : Some of the NUS-OSS projects hire interns through these internship programs.</li>
           <li><a href="https://www.comp.nus.edu.sg/programmes/ug/project/fyp/">FYP (CP4101)</a>, <a href="https://www.comp.nus.edu.sg/programmes/ug/project/cp4106/">Computing Project (CP4106)</a>: Modules aimed at final year students.</li>
         </ul>
-        <h2 id="paid-internships"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Paid internships<a class="fa fa-anchor" href="#paid-internships"></a></h2>
+        <h2 id="paid-internships"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Paid internships<a class="fa fa-anchor" href="#paid-internships" onclick="event.stopPropagation()"></a></h2>
         <p><img src="/images/2017-interns.png" width="800"><br>
-          <sub>Some of the interns from 2017 summer batch</sub></p>
+          <sub>Some of the interns from 2017 summer batch</sub>
+        </p>
         <p>For NUS students, it is possible to get paid for work done in these projects.</p>
         <ul>
           <li>Part time internships : Pay depends on the amount of work, at normal <a href="http://www.nus.edu.sg/osa/about/join-us/nsws">NSWS scheme</a></li>
@@ -136,10 +132,8 @@ Projects under the NUS-OSS initiative have benefited <strong>more than a million
         <p><strong>Before you apply</strong></p>
         <p>Before you apply, ensure that you match both our expectations given below.</p>
         <ul>
-          <li>Due to the nature of our projects, <mark>we prefer to select interns who can remain involved with the project</mark> (on a lightweight basis, possibly paid as part time work) even after the internship is over, and help with running the project
-            e.g., mentoring new contributors, review PRs, etc. These projects are currently run by such alumni and that is the only way we can sustain these projects.</li>
-          <li>We prefer to recruit students who are interested in our projects for the right reasons (e.g., as an opportunity to improve SE skills, make an impact to many users, or due to genuine interest in the product or the technologies being used etc.)
-            rather than those looking at it purely as an opportunity to earn some money.</li>
+          <li>Due to the nature of our projects, <mark>we prefer to select interns who can remain involved with the project</mark> (on a lightweight basis, possibly paid as part time work) even after the internship is over, and help with running the project e.g., mentoring new contributors, review PRs, etc. These projects are currently run by such alumni and that is the only way we can sustain these projects.</li>
+          <li>We prefer to recruit students who are interested in our projects for the right reasons (e.g., as an opportunity to improve SE skills, make an impact to many users, or due to genuine interest in the product or the technologies being used etc.) rather than those looking at it purely as an opportunity to earn some money.</li>
         </ul>
         <p><strong>How to apply:</strong></p>
         <ul>
@@ -147,19 +141,24 @@ Projects under the NUS-OSS initiative have benefited <strong>more than a million
           <li>Other full time internships: contact project mentor prof Damith (contact given below)</li>
           <li>Part time work: After you have contributed a few PRs to any of the projects above, contact project mentor prof Damith (contact given below) to explore possibilities for paid internships.</li>
         </ul>
-        <h2 id="queries"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Queries<a class="fa fa-anchor" href="#queries"></a></h2>
-        <p>If you have questions, please contact project mentor <a href="http://www.comp.nus.edu.sg/~damithch">Dr Damith</a> or write to <code>nus-oss</code>at<code>comp.nus.edu.sg</code>.</p>
+        <h2 id="queries"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Queries<a class="fa fa-anchor" href="#queries" onclick="event.stopPropagation()"></a></h2>
+        <p>If you have questions, please contact project mentor <a href="http://www.comp.nus.edu.sg/~damithch">Dr Damith</a> or write to <code v-pre>nus-oss</code>at<code v-pre>comp.nus.edu.sg</code>.</p>
       </div>
+
+
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
           <nav class="nav nav-pills flex-column my-0 small no-flex-wrap">
-            <a class="nav-link py-1" href="#projects"> Projects&#x200E;</a>
-            <a class="nav-link py-1" href="#benefits"> Benefits&#x200E;</a>
-            <a class="nav-link py-1" href="#how-to-get-started"> How to get started&#x200E;</a>
-            <a class="nav-link py-1" href="#earning-modular-credit"> Earning modular credit&#x200E;</a>
-            <a class="nav-link py-1" href="#paid-internships"> Paid internships&#x200E;</a>
-            <a class="nav-link py-1" href="#queries"> Queries&#x200E;</a>
+            <a class="nav-link py-1" href="#oss-projects-at-nus-soc">OSS Projects at NUS SoC&#x200E;</a>
+            <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
+              <a class="nav-link py-1" href="#projects"> Projects&#x200E;</a>
+              <a class="nav-link py-1" href="#benefits"> Benefits&#x200E;</a>
+              <a class="nav-link py-1" href="#how-to-get-started"> How to get started&#x200E;</a>
+              <a class="nav-link py-1" href="#earning-modular-credit"> Earning modular credit&#x200E;</a>
+              <a class="nav-link py-1" href="#paid-internships"> Paid internships&#x200E;</a>
+              <a class="nav-link py-1" href="#queries"> Queries&#x200E;</a>
+            </nav>
 
           </nav>
         </div>
@@ -167,14 +166,15 @@ Projects under the NUS-OSS initiative have benefited <strong>more than a million
     </div>
     <footer>
       <div class="text-center">
-        <p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 2.7.0</a></strong> on Tue, 17 Dec 2019 07:21:45 GMT]<br>
-          <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span></p>
+        <p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 2.15.2</a></strong> on Thu, 26 Nov 2020, 5:16:59 UTC]<br>
+          <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span>
+        </p>
       </div>
     </footer>
   </div>
 </body>
 <script src="markbind/js/vue.min.js"></script>
-<script src="markbind/js/vue-strap.min.js"></script>
+<script src="markbind/js/components.min.js"></script>
 <script src="markbind/js/bootstrap-utility.min.js"></script>
 <script src="markbind/js/polyfill.min.js"></script>
 <script src="markbind/js/bootstrap-vue.min.js"></script>
