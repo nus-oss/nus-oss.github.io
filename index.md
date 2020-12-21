@@ -34,7 +34,6 @@ Project(s) | KLoC | Languages | Description |
 [RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS | A tool to monitor contributions to multiple Git repositories. ([:fab-github: project website](https://github.com/reposense/reposense)))  |
 [MarkBind](https://markbind.org) | 5 | Node.js HTML, JavaScript, CSS | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind))) |
 [CATcher](https://github.com/CATcher-org/CATcher/) | 5 | TypeScript, Angular, Electron, Python | A Desktop App for anonymous peer testing of software products. ([:fab-github: project website](https://github.com/CATcher-org/CATcher/) |
-SEEker | 5 | Python | A library for giving automated feedback for multiple GitHub repositories. |
 
 
 ## {{ icon_tick }} Benefits
