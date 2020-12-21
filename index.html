@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.15.2">
+  <meta name="generator" content="MarkBind 2.17.2">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NUS-OSS Projects</title>
   <link rel="stylesheet" href="markbind/css/bootstrap.min.css">
@@ -13,17 +13,21 @@
   <link rel="stylesheet" href="markbind/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="markbind/css/octicons.css">
-  <link rel="stylesheet" href="markbind/css/github.min.css">
-  <link rel="stylesheet" href="markbind/css/markbind.css">
+  <link rel="stylesheet" href="markbind/css/codeblock-dark.min.css">
+  <link rel="stylesheet" href="markbind/css/markbind.min.css">
+  <script src="markbind/js/polyfill.min.js"></script>
+  <script src="markbind/js/vue.min.js"></script>
+  <script src="markbind/js/markbind.min.js"></script>
+  <script src="markbind/js/jquery.min.js"></script>
   <link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css">
   <link rel="stylesheet" href="markbind/layouts/default/styles.css">
-  <link rel="stylesheet" href="markbind/css/page-nav.css">
   <link rel="icon" href="/favicon.ico">
 </head>
 
 <body data-spy="scroll" data-target="#page-nav" data-offset="100">
   <div id="app">
     <div id="flex-body">
+
       <div id="content-wrapper">
         <link rel="stylesheet" href="/css/main.css">
         <navbar placement="top" type="inverse" class="temp-navbar">
@@ -35,12 +39,12 @@
         <br>
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
-            <h1 class="display-4" id="oss-projects-at-nus-soc">OSS Projects at NUS SoC<a class="fa fa-anchor" href="#oss-projects-at-nus-soc" onclick="event.stopPropagation()"></a></h1>
+            <h1 class="display-4" id="oss-projects-at-nus-soc"><span id="oss-projects-at-nus-soc" class="anchor"></span>OSS Projects at NUS SoC<a class="fa fa-anchor" href="#oss-projects-at-nus-soc" onclick="event.stopPropagation()"></a></h1>
             <p class="lead"><span>NUS-OSS is an initiative to help interested <a href="https://www.comp.nus.edu.sg">NUS SoC</a> students become OSS developers.<br>
                 Projects under the NUS-OSS initiative have benefited <strong>more than a million users</strong>.</span></p>
           </div>
         </div>
-        <h2 id="projects"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Projects<a class="fa fa-anchor" href="#projects" onclick="event.stopPropagation()"></a></h2>
+        <h2 id="projects"><span id="projects" class="anchor"></span><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Projects<a class="fa fa-anchor" href="#projects" onclick="event.stopPropagation()"></a></h2>
         <p>We have a number of OSS projects that are especially suitable for NUS students to level-up their SE within the context of OSS projects.</p>
         <div class="table-responsive">
           <table class="markbind-table table table-bordered table-striped">
@@ -89,16 +93,10 @@
                 <td>TypeScript, Angular, Electron, Python</td>
                 <td>A Desktop App for anonymous peer testing of software products. (<a href="https://github.com/CATcher-org/CATcher/"><span aria-hidden="true" class="fab fa-github"></span> project website</a></td>
               </tr>
-              <tr>
-                <td>SEEker</td>
-                <td>5</td>
-                <td>Python</td>
-                <td>A library for giving automated feedback for multiple GitHub repositories.</td>
-              </tr>
             </tbody>
           </table>
         </div>
-        <h2 id="benefits"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Benefits<a class="fa fa-anchor" href="#benefits" onclick="event.stopPropagation()"></a></h2>
+        <h2 id="benefits"><span id="benefits" class="anchor"></span><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Benefits<a class="fa fa-anchor" href="#benefits" onclick="event.stopPropagation()"></a></h2>
         <p>Doing work outside modules will set you apart from those who are only good in academic work and will increase your chances of getting,</p>
         <ul>
           <li>paid internships in our OSS projects (more info <a href="#paid-internships">below</a>)</li>
@@ -106,11 +104,11 @@
           <li>entry to selection-based modules such as CS3281&amp;2, CS3216, CS3217</li>
           <li>tutorships in related modules</li>
         </ul>
-        <h2 id="how-to-get-started"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> How to get started<a class="fa fa-anchor" href="#how-to-get-started" onclick="event.stopPropagation()"></a></h2>
+        <h2 id="how-to-get-started"><span id="how-to-get-started" class="anchor"></span><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> How to get started<a class="fa fa-anchor" href="#how-to-get-started" onclick="event.stopPropagation()"></a></h2>
         <p>Each of the projects have their own documentation on how to get started.</p>
         <p>If you have limited experience outside project in school modules, you can start with a smaller project such as those in <a href="https://github.com/se-edu">SE-EDU</a> and move to bigger projects after a while.</p>
         <p>Vacations are especially good times to get started on our projects as our projects are more active during those times. We even have dedicated working space in school for those working on our projects during vacation times.</p>
-        <h2 id="earning-modular-credit"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Earning modular credit<a class="fa fa-anchor" href="#earning-modular-credit" onclick="event.stopPropagation()"></a></h2>
+        <h2 id="earning-modular-credit"><span id="earning-modular-credit" class="anchor"></span><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Earning modular credit<a class="fa fa-anchor" href="#earning-modular-credit" onclick="event.stopPropagation()"></a></h2>
         <p>There are several ways to earn modular credit for OSS work</p>
         <ul>
           <li><a href="https://nus-cs3281.github.io/website/">CS3281&amp;2 (Thematic Systems Project)</a> : In these two modules, student work on existing OSS projects, including NUS-OSS projects.</li>
@@ -119,7 +117,7 @@
           <li><a href="https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/">CP3200 (SIP)</a>, <a href="http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/">CP3880 (ATAP)</a> : Some of the NUS-OSS projects hire interns through these internship programs.</li>
           <li><a href="https://www.comp.nus.edu.sg/programmes/ug/project/fyp/">FYP (CP4101)</a>, <a href="https://www.comp.nus.edu.sg/programmes/ug/project/cp4106/">Computing Project (CP4106)</a>: Modules aimed at final year students.</li>
         </ul>
-        <h2 id="paid-internships"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Paid internships<a class="fa fa-anchor" href="#paid-internships" onclick="event.stopPropagation()"></a></h2>
+        <h2 id="paid-internships"><span id="paid-internships" class="anchor"></span><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Paid internships<a class="fa fa-anchor" href="#paid-internships" onclick="event.stopPropagation()"></a></h2>
         <p><img src="/images/2017-interns.png" width="800"><br>
           <sub>Some of the interns from 2017 summer batch</sub>
         </p>
@@ -141,11 +139,10 @@
           <li>Other full time internships: contact project mentor prof Damith (contact given below)</li>
           <li>Part time work: After you have contributed a few PRs to any of the projects above, contact project mentor prof Damith (contact given below) to explore possibilities for paid internships.</li>
         </ul>
-        <h2 id="queries"><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Queries<a class="fa fa-anchor" href="#queries" onclick="event.stopPropagation()"></a></h2>
-        <p>If you have questions, please contact project mentor <a href="http://www.comp.nus.edu.sg/~damithch">Dr Damith</a> or write to <code v-pre>nus-oss</code>at<code v-pre>comp.nus.edu.sg</code>.</p>
+        <h2 id="queries"><span id="queries" class="anchor"></span><span class="dimmed"><span aria-hidden="true" class="fas fa-arrow-alt-circle-right"></span></span> Queries<a class="fa fa-anchor" href="#queries" onclick="event.stopPropagation()"></a></h2>
+        <p>If you have questions, please contact project mentor <a href="http://www.comp.nus.edu.sg/~damithch">Dr Damith</a> or write to <code class="hljs inline no-lang" v-pre>nus-oss</code>at<code class="hljs inline no-lang" v-pre>comp.nus.edu.sg</code>.</p>
+        <p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p>
       </div>
-
-
       <nav id="page-nav" class="navbar navbar-light bg-transparent">
         <div class="border-left-grey nav-inner position-sticky slim-scroll">
 
@@ -166,23 +163,21 @@
     </div>
     <footer>
       <div class="text-center">
-        <p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 2.15.2</a></strong> on Thu, 26 Nov 2020, 5:16:59 UTC]<br>
+        <p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 2.17.2</a></strong> on Mon, 21 Dec 2020, 8:39:48 UTC]<br>
           <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span>
         </p>
       </div>
     </footer>
   </div>
 </body>
-<script src="markbind/js/vue.min.js"></script>
-<script src="markbind/js/components.min.js"></script>
 <script src="markbind/js/bootstrap-utility.min.js"></script>
-<script src="markbind/js/polyfill.min.js"></script>
-<script src="markbind/js/bootstrap-vue.min.js"></script>
 <script>
   const baseUrl = ''
-  const enableSearch = true
+  MarkBind.setupWithSearch()
 </script>
-<script src="markbind/js/setup.js"></script>
 <script src="markbind/layouts/default/scripts.js"></script>
+<script>
+  if (MarkBind.AfterSetup) MarkBind.AfterSetup()
+</script>
 
 </html>
