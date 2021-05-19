@@ -22,6 +22,25 @@
         "queries": " Queries"
       },
       "headingKeywords": {}
+    },
+    {
+      "src": "pages/iwm.md",
+      "title": "Independent Work Modules @NUS-OSS",
+      "headings": {
+        "independent-work-modules-nus-oss": "Independent Work Modules @NUS-OSS",
+        "objectives": " Objectives",
+        "prerequisites": " Prerequisites",
+        "structure": " Structure",
+        "enrolling": " Enrolling",
+        "phases": " Phases",
+        "phase-1-set-up": "Phase 1: set up",
+        "phase-2-experiment": "Phase 2: experiment",
+        "phase-3-contribute": "Phase 3: contribute",
+        "phase-4-wrap-up": "Phase 4: wrap up",
+        "grading": " Grading",
+        "questions": " Questions?"
+      },
+      "headingKeywords": {}
     }
   ]
 }

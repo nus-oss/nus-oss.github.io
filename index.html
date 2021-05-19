@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="MarkBind 2.17.2">
+  <meta name="generator" content="MarkBind 2.18.1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NUS-OSS Projects</title>
   <link rel="stylesheet" href="markbind/css/bootstrap.min.css">
@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="markbind/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="markbind/css/octicons.css">
-  <link rel="stylesheet" href="markbind/css/codeblock-dark.min.css">
+  <link rel="stylesheet" href="markbind/css/codeblock-light.min.css">
   <link rel="stylesheet" href="markbind/css/markbind.min.css">
   <script src="markbind/js/polyfill.min.js"></script>
   <script src="markbind/js/vue.min.js"></script>
@@ -29,14 +29,16 @@
     <div id="flex-body">
 
       <div id="content-wrapper">
-        <link rel="stylesheet" href="/css/main.css">
-        <navbar placement="top" type="inverse" class="temp-navbar">
-          <a slot="brand" href="/index.html" title="Home" class="navbar-brand">[NUS-OSS] <span><strong>OSS Projects at NUS SoC</strong></span></a>
-          <li slot="right">
-            <a href="https://github.com/nus-oss/nus-oss.github.io" target="_blank" class="nav-link"></a>
-          </li>
-        </navbar>
-        <br>
+        <div>
+          <link rel="stylesheet" href="/css/main.css">
+          <navbar placement="top" type="inverse" class="temp-navbar">
+            <a slot="brand" href="/index.html" title="Home" class="navbar-brand">[NUS-OSS] <span><strong>OSS Projects at NUS SoC</strong></span></a>
+            <li slot="right">
+              <a href="https://github.com/nus-oss/nus-oss.github.io" target="_blank" class="nav-link"></a>
+            </li>
+          </navbar>
+          <br>
+        </div>
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
             <h1 class="display-4" id="oss-projects-at-nus-soc"><span id="oss-projects-at-nus-soc" class="anchor"></span>OSS Projects at NUS SoC<a class="fa fa-anchor" href="#oss-projects-at-nus-soc" onclick="event.stopPropagation()"></a></h1>
@@ -83,13 +85,13 @@
               </tr>
               <tr>
                 <td><a href="https://markbind.org">MarkBind</a></td>
-                <td>5</td>
+                <td>10</td>
                 <td>Node.js HTML, JavaScript, CSS</td>
                 <td>A tool for generating educational websites from Markdown syntax. (<a href="https://markbind.org/"><span aria-hidden="true" class="fas fa-home"></span> product website</a>, <a href="https://github.com/markbind/markbind"><span aria-hidden="true" class="fab fa-github"></span> project website</a>))</td>
               </tr>
               <tr>
                 <td><a href="https://github.com/CATcher-org/CATcher/">CATcher</a></td>
-                <td>5</td>
+                <td>10</td>
                 <td>TypeScript, Angular, Electron, Python</td>
                 <td>A Desktop App for anonymous peer testing of software products. (<a href="https://github.com/CATcher-org/CATcher/"><span aria-hidden="true" class="fab fa-github"></span> project website</a></td>
               </tr>
@@ -113,7 +115,7 @@
         <ul>
           <li><a href="https://nus-cs3281.github.io/website/">CS3281&amp;2 (Thematic Systems Project)</a> : In these two modules, student work on existing OSS projects, including NUS-OSS projects.</li>
           <li><a href="https://docs.google.com/document/d/1jY9gYuNP9GBpYlGaLGEaYjusrQfBolmluX1rSc9x9dM/pub?embedded=true">CS2103R (Software Engineering - Research)</a> : This is a 1 MC add-on to CS2103/T that you can do in the year immediately after you completed CS2103.</li>
-          <li><a href="http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A">CP3108A/B (Independent Work, 2/4MC S/U)</a>, <a href="https://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3106">CP3106 (Independent Work, 4MC, Graded)</a> : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects.<br>
+          <li><a href="http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A">CP3108A/B (Independent Work, 2/4MC S/U)</a>, <a href="https://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3106">CP3106 (Independent Work, 4MC, Graded)</a> : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects. <mark>See <a href="/pages/iwm.html">here</a> for more info.</mark><br>
             Note: Doing NUS-OSS project under these modules is available only in semester 1 (i.e., not available in semester 2) of each academic year, and only for students who have at least 4 more semesters left in their degree program.</li>
           <li><a href="https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/">CP3200 (SIP)</a>, <a href="http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/">CP3880 (ATAP)</a> : Some of the NUS-OSS projects hire interns through these internship programs.</li>
           <li><a href="https://www.comp.nus.edu.sg/programmes/ug/project/fyp/">FYP (CP4101)</a>, <a href="https://www.comp.nus.edu.sg/programmes/ug/project/cp4106/">Computing Project (CP4106)</a>: Modules aimed at final year students.</li>
@@ -164,7 +166,7 @@
     </div>
     <footer>
       <div class="text-center">
-        <p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 2.17.2</a></strong> on Mon, 21 Dec 2020, 8:48:24 UTC]<br>
+        <p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 2.18.1</a></strong> on Wed, 19 May 2021, 16:27:45 UTC]<br>
           <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span>
         </p>
       </div>
