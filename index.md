@@ -4,15 +4,7 @@
   pageNav: 2
 </frontmatter>
 
-<link rel="stylesheet" href="{{baseUrl}}/css/main.css">
-<navbar placement="top" type="inverse">
-  <a slot="brand" href="{{baseUrl}}/index.html" title="Home" class="navbar-brand">[NUS-OSS] <md>**OSS Projects at NUS SoC**</md></a>
-  <li slot="right">
-    <a href="https://github.com/nus-oss/nus-oss.github.io" target="_blank" class="nav-link">{{ fab_github }}</a>
-  </li>
-</navbar>
-
-<br>
+<include src="pages/common.mbdf" />
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
@@ -32,8 +24,8 @@ Project(s) | KLoC | Languages | Description |
 [TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS | An online feedback management system for education used by more than **600,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates))) |
 [SE-EDU](https://se-education.org) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org))|
 [RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS | A tool to monitor contributions to multiple Git repositories. ([:fab-github: project website](https://github.com/reposense/reposense)))  |
-[MarkBind](https://markbind.org) | 5 | Node.js HTML, JavaScript, CSS | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind))) |
-[CATcher](https://github.com/CATcher-org/CATcher/) | 5 | TypeScript, Angular, Electron, Python | A Desktop App for anonymous peer testing of software products. ([:fab-github: project website](https://github.com/CATcher-org/CATcher/) |
+[MarkBind](https://markbind.org) | 10 | Node.js HTML, JavaScript, CSS | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind))) |
+[CATcher](https://github.com/CATcher-org/CATcher/) | 10 | TypeScript, Angular, Electron, Python | A Desktop App for anonymous peer testing of software products. ([:fab-github: project website](https://github.com/CATcher-org/CATcher/) |
 
 
 ## {{ icon_tick }} Benefits
@@ -59,7 +51,7 @@ There are several ways to earn modular credit for OSS work
 
 * [CS3281&2 (Thematic Systems Project)](https://nus-cs3281.github.io/website/) : In these two modules, student work on existing OSS projects, including NUS-OSS projects.
 * [CS2103R (Software Engineering - Research)](https://docs.google.com/document/d/1jY9gYuNP9GBpYlGaLGEaYjusrQfBolmluX1rSc9x9dM/pub?embedded=true) : This is a 1 MC add-on to CS2103/T that you can do in the year immediately after you completed CS2103.
-* [CP3108A/B (Independent Work, 2/4MC S/U)](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A), [CP3106 (Independent Work, 4MC, Graded)](https://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3106) : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects.<br>
+* [CP3108A/B (Independent Work, 2/4MC S/U)](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A), [CP3106 (Independent Work, 4MC, Graded)](https://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3106) : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects. ==See [here](pages/iwm.html) for more info.==<br>
   Note: Doing NUS-OSS project under these modules is available only in semester 1 (i.e., not available in semester 2) of each academic year, and only for students who have at least 4 more semesters left in their degree program.
 * [CP3200 (SIP)](https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/), [CP3880 (ATAP)](http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/) : Some of the NUS-OSS projects hire interns through these internship programs.
 * [FYP (CP4101)](https://www.comp.nus.edu.sg/programmes/ug/project/fyp/), [Computing Project (CP4106)](https://www.comp.nus.edu.sg/programmes/ug/project/cp4106/): Modules aimed at final year students.
