@@ -8,23 +8,23 @@
 
 <h1 class="display-4">Independent Work Modules @NUS-OSS</h1>
 
-<p class="lead"><md>[CP3108A and CP3108B](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A) are _independent work_ modules run by the SoC UG office. To enroll in one of them, you first need to secure a project supervised by a professor. This page describes how to secure a place in an [NUS-OSS project](../index.html) (supervised by [prof Damith](https://www.comp.nus.edu.sg)) so that you can enroll in one of independent work modules.</md></p>
+<p class="lead"><md>[CP3108A and CP3108B](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A) are _independent work_ modules run by the SoC UG office. To enroll in one of them, you first need to secure a project supervised by a professor. This page describes how to secure a place in an [NUS-OSS project](../index.html) (supervised by [prof Damith](https://www.comp.nus.edu.sg)) so that you can enroll in one of <tooltip content="Independent Work Modules">IWMs</tooltip>.</md></p>
 
 ---
 
 ## {{ icon_tick }} Objectives
 
 Here are the intended objectives of doing an IWM in an NUS-OSS project (IWM@NUS-OSS for short):
-* **To gain skills of an _OSS Contributor_**, which can boost your SE credentials.
-* **To improve your chances of getting into CS3281&2.** Entry into [CS3281 and CS3282](https://nus-cs3281.github.io/website/admin/callForApplications.html) is highly competitive because the class size is only ~20 students. Given those modules are also based on NUS-OSS projects, ==an IWM@NUS-OSS can greatly enhance your chances of getting a place== in those modules.
-* **To serve as the first step in securing a long-term role NUS-OSS project.** The typical path you can follow over the next few semesters is: contributor (via the IWM@NUS-OSS) →  developer → senior developer → lead developer → alumni mentor (after graduation).
+1. **To gain skills of an _OSS Contributor_**, which can boost your SE credentials.
+1. **To improve your chances of getting into CS3281&2.** Entry into [CS3281 and CS3282](https://nus-cs3281.github.io/website/admin/callForApplications.html) is highly competitive because the class size is only ~20 students. Given those modules are also based on NUS-OSS projects, ==an IWM@NUS-OSS can greatly enhance your chances of getting a place== in those modules.
+1. **To serve as the first step in securing a long-term role NUS-OSS project.** The typical path you can follow over the next few semesters is: contributor (via the IWM@NUS-OSS) →  developer → senior developer → lead developer → alumni mentor (after graduation).
 
 ---
 
 ## {{ icon_tick }} Prerequisites
 
-Given below are the prerequisites that you need to satisfy to be eligible for an <tooltip content="Independent Projects @NUS-OSS">IWM@NUS-OSS</tooltip>. These can only be waived under exceptional circumstances.
-* You have at least **3-4 semesters left** till graduation.
+Given below are the prerequisites that you need to satisfy to be eligible for an <tooltip content="Independent Work Module @NUS-OSS">IWM@NUS-OSS</tooltip>. These can only be waived under exceptional circumstances.
+* You have at least **3-4 semesters left** till graduation %%(reason: see objective 3 above)%%.
 * You have done well in programming and SE modules (**at least B+** for most, if not all).
 * You have done [CS2103/T](www.comp.nus.edu.sg/~cs2103) or an equivalent module.<br>
   Alternatively, you have substantial programming experience, including experience with Git/GitHub.
@@ -42,13 +42,14 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
 * If you are selected for an IWM@NUS-OSS, you will be **_officially_ enrolled in the <tooltip content="i.e., CP3108A/B">target module</tooltip> in semester 1** (i.e., Aug-Dec) of the following AY.
   * However, the work can begin earlier e.g., during the summer. You can even finish the work during the summer itself.
   * You are responsible for ensuring that you are officially eligible to take the target module.
+    CP3108A/B enrollment is controlled by the SoC UG office (not by NUS-OSS or prof Damith).
 
 ---
 
 ## {{ icon_tick }} Enrolling
 
-* A _call for application_ will be sent out year 2 computing students around mid-May (and in some years, again in late-July).
-* You can also apply any time using [this form](https://forms.gle/56mfhBmeksr2hju58) but the chance of acceptance is higher when applying between late April and early Aug.
+* A _call for application_ will be sent out to year-2 computing students around mid-May (and in some years, again in late-July).
+* You can also apply any time using [this form](https://forms.gle/56mfhBmeksr2hju58) but the chance of acceptance is higher when applying during the summer period.
 * If you are selected (after some initial screening), you will be informed how to enroll officially in the target module.
 
 ---
@@ -73,19 +74,19 @@ A student in IWM@NUS-OSS project goes through the following typical phases.
    1. Ensure the change is in a ==separate branch==.<br>
       As this enhancement is not meant to be merged, it is optional to update/add tests, to get CI to pass, or to update documentation.
    1. Push the branch to your fork.
-   1. Create a PR ==within your fork== (do not send the PR to the upstream repo), from your new branch to the master/main branch.<br>
+   1. Create a PR ==within your fork <span class="text-danger">(do not send the PR to the upstream repo)</span>==, from your new branch to the master/main branch.<br>
      In the PR description, explain your change, and if applicable, provide screenshots (or screen recordings) of how the change looks to an end-user.
    1. **You can even do multiple enhancements** (optional), but keep each enhancement in a separate branch and  in a separate PR.
 
 <box type="tip" seamless>
 
-**Aim to showcase your ability** to understand the product and work with the codebase, when doing this phase. Hence,
+**Aim to showcase your ability** to (a) understand the product, and, (b) work with the codebase, when doing this phase. Hence,
   * non-trivial enhancements are preferred over trivial/superficial ones (e.g., changing a button label or fixing a minor typo is unlikely to achieve the aim of this phase).
   * positive/useful enhancements are preferred over <tooltip content="a change that makes the product worse">negative</tooltip>/useless ones.
 </box>
 
-2. **Send the PR link(s)** to the prof (email: `nus-oss` at `comp.nus.edu.sg`), when ready.<br>
-   After that, wait for further instructions from the prof (which should reach you within 2-3 days).
+2. **Send the PR link(s)** to the NUS-OSS team (email: `nus-oss` at `comp.nus.edu.sg`), when ready.<br>
+   After that, wait for further instructions (which should reach you within 2-3 days).
 
 ### Phase 3: contribute
 
@@ -93,13 +94,13 @@ This phase starts only after you have been accepted for an IWM@NUS-OSS slot, whi
 
 1. **Learn the workflow** and various conventions followed by the project. These are likely to be found among the dev docs of the project.
 1. **Start submitting PRs** for issues in the issue tracker of the project.
-   * You can start with an issue set aside for new-comers (if any). Such issues usually have an indicative label e.g., `good first issue`.<br>
-   Do not do more than one such 'beginner issue' though.
+   * You can start with an issue set aside for new-comers (if any). Such issues usually have an indicative label e.g., `good first issue` or `d.FristTimers`.<br>
+   Do not do more than one such 'new-comers issue' though.
    * **Ask before starting** work on an issue, as some issues may be outdated. You can simply post in the same issue to ask if it is OK to work on it.
    * When choosing issues to work on, you can pick based on your interest %%e.g., if you are more interested in the front-end, you can pick issues related to the front-end%%.
-1. **Record progress** in online document (e.g., a Google Doc) regularly.
+1. **Record progress** in an online document (e.g., a Google Doc) regularly.
    * ==Suggested progress report template== is [here](https://docs.google.com/document/d/13C1IRkDGSmfEkQD9RQsJMaE-WU9xCRiedpu8FqdMBNs/edit?usp=sharing)  -- you can use the `File` -> `Make a copy` option to create your own copy (Google login required).
-   * Weekly updates is recommended, spanning at least 10 weeks is expected.
+   * Weekly updates is recommended. Work spanning at least 10 weeks is expected.
    * Include links to PRs, external resources you referred, problems faced, solutions found, etc.
 1. **Send the link** to above document (view-only permission is enough) to the prof at the end of the first week.
 

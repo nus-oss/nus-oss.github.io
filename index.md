@@ -21,11 +21,11 @@ We have a number of OSS projects that are especially suitable for NUS students t
 Project(s) | KLoC | Languages | Description |
 --- | --- | --- | --- |
 [PowerPointLabs](http://www.comp.nus.edu.sg/~pptlabs/) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefited more than **1,000,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)) |
-[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS | An online feedback management system for education used by more than **600,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates))) |
-[SE-EDU](https://se-education.org) | 1-10 | Java | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org))|
-[RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS | A tool to monitor contributions to multiple Git repositories. ([:fab-github: project website](https://github.com/reposense/reposense)))  |
-[MarkBind](https://markbind.org) | 10 | Node.js HTML, JavaScript, CSS | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind))) |
-[CATcher](https://github.com/CATcher-org/CATcher/) | 10 | TypeScript, Angular, Electron, Python | A Desktop App for anonymous peer testing of software products. ([:fab-github: project website](https://github.com/CATcher-org/CATcher/) |
+[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS, Google Cloud | An online feedback management system for education used by more than **600,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates))) |
+[SE-EDU](https://se-education.org) | 1-10 | Java, Jekyll | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org))|
+[RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS, Vue | A tool to monitor contributions to multiple Git repositories. ([:fab-github: project website](https://github.com/reposense/reposense)))  |
+[MarkBind](https://markbind.org) | 10 | Node.js, HTML, JavaScript, CSS, Vue | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind))) |
+[CATcher](https://github.com/CATcher-org/CATcher/) | 10 | TypeScript, Angular, Electron | A Desktop App for anonymous peer testing of software products. ([:fab-github: project website](https://github.com/CATcher-org/CATcher/) |
 
 
 ## {{ icon_tick }} Benefits
