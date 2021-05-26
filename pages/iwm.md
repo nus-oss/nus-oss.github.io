@@ -15,9 +15,16 @@
 ## {{ icon_tick }} Objectives
 
 Here are the intended objectives of doing an IWM in an NUS-OSS project (IWM@NUS-OSS for short):
-1. **To gain skills of an _OSS Contributor_**, which can boost your SE credentials.
+1. **To gain skills of an _OSS Contributor_**, which can boost your SE credentials, especially when you apply for internships or jobs in the near future.
 1. **To improve your chances of getting into CS3281&2.** Entry into [CS3281 and CS3282](https://nus-cs3281.github.io/website/admin/callForApplications.html) is highly competitive because the class size is only ~20 students. Given those modules are also based on NUS-OSS projects, ==an IWM@NUS-OSS can greatly enhance your chances of getting a place== in those modules.
-1. **To serve as the first step in securing a long-term role NUS-OSS project.** The typical path you can follow over the next few semesters is: contributor (via the IWM@NUS-OSS) →  developer → senior developer → lead developer → alumni mentor (after graduation).
+1. **To serve as the first step in securing a long-term role NUS-OSS project.** The typical path you can follow over the next few semesters is: contributor (via the IWM@NUS-OSS) →  developer → senior developer → lead developer → alumni mentor (after graduation). The work you do for NUS-OSS projects later can be paid as part-time work or can be used to earn more module credit through other module codes.
+
+<box type="tip" seamless>
+
+You can do an IWM@NUS-OSS 'unofficially' too (i.e., without officially enrolling in a module) if you are not interested in receiving module credits but you are still interested to join an NUS-OSS project. In that case,
+* the procedure is the same except you can skip the step of enrolling for the module with the UG office.
+* you can opt to receive a reference letter from the prof instead of module credit.
+</box>
 
 ---
 
@@ -40,7 +47,7 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
   * RepoSense: 2-3 slots/year
   * TEAMMATES: 3-6 slots/year
 * If you are selected for an IWM@NUS-OSS, you will be **_officially_ enrolled in the <tooltip content="i.e., CP3108A/B">target module</tooltip> in semester 1** (i.e., Aug-Dec) of the following AY.
-  * However, the work can begin earlier e.g., during the summer. You can even finish the work during the summer itself.
+  * However, the work can begin earlier e.g., during the summer (preferred). You can even finish the work during the summer itself.
   * You are responsible for ensuring that you are officially eligible to take the target module.
     CP3108A/B enrollment is controlled by the SoC UG office (not by NUS-OSS or prof Damith).
 
