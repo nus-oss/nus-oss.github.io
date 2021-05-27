@@ -46,6 +46,7 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
   * MarkBind: 2-3 slots/year
   * RepoSense: 2-3 slots/year
   * TEAMMATES: 3-6 slots/year
+* CP3108A is worth 2M while CP3108B is worth 4MC. Both are graded CS/CU. More info given [here](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A).
 * If you are selected for an IWM@NUS-OSS, you will be **_officially_ enrolled in the <tooltip content="i.e., CP3108A/B">target module</tooltip> in semester 1** (i.e., Aug-Dec) of the following AY.
   * However, the work can begin earlier e.g., during the summer (preferred). You can even finish the work during the summer itself.
   * You are responsible for ensuring that you are officially eligible to take the target module.
@@ -133,7 +134,7 @@ These are things to do when nearing the deadline (the deadline will be given to 
 * **The level of competency gained** will matter too. It is better to do progressively deeper/harder/bigger PRs as you progress through the project, compared to doing a lot of simple PRs.
 * **The expected workload** is indicated by the modular credits.
   * CP3108A (2MC): about 5 hours/week, over 10-12 weeks
-  * CP3108A (4MC): about 10 hours/week, over 10-12 weeks
+  * CP3108B (4MC): about 10 hours/week, over 10-12 weeks
 * You can ask prof if the work you have done so far is enough or whether you are progressing fast enough.
 
 ---
