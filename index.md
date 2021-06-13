@@ -3,9 +3,7 @@
   footer: footer.md
   pageNav: 2
 </frontmatter>
-
-<include src="pages/common.mbdf" />
-
+<br>
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">OSS Projects at NUS SoC</h1>
@@ -13,7 +11,6 @@
         Projects under the NUS-OSS initiative have benefited **more than a million users**.</md></p>
   </div>
 </div>
-
 
 ## {{ icon_tick }} Projects
 We have a number of OSS projects that are especially suitable for NUS students to level-up their SE within the context of OSS projects.

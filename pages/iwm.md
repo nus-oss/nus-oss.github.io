@@ -4,8 +4,6 @@
   pageNav: 2
 </frontmatter>
 
-<include src="common.mbdf" />
-
 <h1 class="display-4">Independent Work Modules @NUS-OSS</h1>
 
 <p class="lead"><md>[CP3108A and CP3108B](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A) are _independent work_ modules run by the SoC UG office. To enroll in one of them, you first need to secure a project supervised by a professor. This page describes how to secure a place in an [NUS-OSS project](../index.html) (supervised by [prof Damith](https://www.comp.nus.edu.sg)) so that you can enroll in one of <tooltip content="Independent Work Modules">IWMs</tooltip>.</md></p>
@@ -33,7 +31,7 @@ You can do an IWM@NUS-OSS 'unofficially' too (i.e., without officially enrolling
 Given below are the prerequisites that you need to satisfy to be eligible for an <tooltip content="Independent Work Module @NUS-OSS">IWM@NUS-OSS</tooltip>. These can only be waived under exceptional circumstances.
 * You have at least **3-4 semesters left** till graduation %%(reason: see objective 3 above)%%.
 * You have done well in programming and SE modules (**at least B+** for most, if not all).
-* You have done [CS2103/T](www.comp.nus.edu.sg/~cs2103) or an equivalent module.<br>
+* You have done [CS2103/T](https://www.comp.nus.edu.sg/~cs2103) or an equivalent module.<br>
   Alternatively, you have substantial programming experience, including experience with Git/GitHub.
 * You have ==**an interest in working with NUS-OSS**== beyond the IWM@NUS-OSS, to become a regular NUS-OSS dev team member.
 
