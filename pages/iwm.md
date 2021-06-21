@@ -56,7 +56,9 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
 
 * A _call for application_ will be sent out to year-2 computing students around mid-May (and in some years, again in late-July).
 * You can also apply any time using [this form](https://forms.gle/56mfhBmeksr2hju58) but the chance of acceptance is higher when applying during the summer period.
-* If you are selected (after some initial screening), you will be informed how to enroll officially in the target module.
+* If you are selected (after some initial screening), please **enroll in the module 'officially'** as explained
+  [here](https://wiki.nus.edu.sg/display/SUW/Independent+Study+Modules) (requires login)
+  -- the module is not pre-allocated automatically to you.
 
 ---
 
