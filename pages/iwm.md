@@ -44,7 +44,8 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
   * MarkBind: 2-3 slots/year
   * RepoSense: 2-3 slots/year
   * TEAMMATES: 3-6 slots/year
-* CP3108A is worth 2M while CP3108B is worth 4MC. Both are graded CS/CU. More info given [here](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A).
+* CP3108A is worth 2M while CP3108B is worth 4MC. Both are graded CS/CU. More info given [here](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A). The only difference between the two is the workload.<br>
+  FAQ: Can I do both modules? No. However, there is an option to do CP3108A first and, (without putting it in the transcript) extend it to CP3108B in a subsequent semester i.e., only one of the two modules can go into the transcript.
 * There are two main intakes for IWM@NUS-OSS:
   * **Summer intake**: You will do the bulk (>80%) of the work during the summer. You will be ==_officially_ enrolled in the <tooltip content="i.e., CP3108A/B">target module</tooltip> in semester 1== (i.e., Aug-Dec) of the following AY.
   * **Semester 1 intake**: You will enroll in the module, and do the work, during the semester 1 (i.e., Aug-Dec) itself.
