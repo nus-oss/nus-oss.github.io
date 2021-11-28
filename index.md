@@ -15,14 +15,18 @@
 ## {{ icon_tick }} Projects
 We have a number of OSS projects that are especially suitable for NUS students to level-up their SE within the context of OSS projects.
 
+{% set mentor_damith = "Mentor: [Dr. Damith](http://www.comp.nus.edu.sg/~damithch)" %}
+{% set mentor_min = "Mentor: [Dr. KAN Min-Yen](http://www.comp.nus.edu.sg/~kanmy)" %}
+
 Project(s) | KLoC | Languages | Description |
 --- | --- | --- | --- |
-[PowerPointLabs](http://www.comp.nus.edu.sg/~pptlabs/) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefited more than **1,000,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)) |
-[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS, Google Cloud | An online feedback management system for education used by more than **600,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates)) |
-[SE-EDU](https://se-education.org) | 1-10 | Java, Jekyll | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org))|
-[RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS, Vue | A tool to monitor contributions to multiple Git repositories. ([:fas-home: product website](https://reposense.org), [:fab-github: project website](https://github.com/reposense/reposense))  |
-[MarkBind](https://markbind.org) | 10 | Node.js, HTML, JavaScript, CSS, Vue | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind)) |
-[CATcher](https://github.com/CATcher-org/CATcher/) | 10 | TypeScript, Angular, Electron | A Desktop App for anonymous peer testing of software products. ([:fas-home: product website](https://catcher-org.github.io/), [:fab-github: project website](https://github.com/CATcher-org/CATcher/)) |
+[CATcher](https://github.com/CATcher-org/CATcher/) | 10 | TypeScript, Angular, Electron | A Desktop App for anonymous peer testing of software products. ([:fas-home: product website](https://catcher-org.github.io/), [:fab-github: project website](https://github.com/CATcher-org/CATcher/)). {{ mentor_damith }}|
+[MarkBind](https://markbind.org) | 10 | Node.js, HTML, JavaScript, CSS, Vue | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind)). {{ mentor_damith }}|
+[PowerPointLabs](http://www.comp.nus.edu.sg/~pptlabs/) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefited more than **1,000,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)). {{ mentor_damith }}|
+[RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS, Vue | A tool to monitor contributions to multiple Git repositories. ([:fas-home: product website](https://reposense.org), [:fab-github: project website](https://github.com/reposense/reposense)). {{ mentor_damith }}|
+[SSID](https://github.com/WING-NUS/SSID) | 70 | Ruby, Rails, Java, JavaScript | Web application for source code plagiarism checking, streamlined for instructor and TA use.  A simpler alternative to Stanford's MOSS. ([:fab-github: project website](https://github.com/WING-NUS/SSID)). {{ mentor_min }}|
+[SE-EDU](https://se-education.org) | 1-10 | Java, Jekyll | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org)). {{ mentor_damith }}|
+[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS, Google Cloud | An online feedback management system for education used by more than **750,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates)). {{ mentor_damith }} |
 
 
 ## {{ icon_tick }} Benefits
