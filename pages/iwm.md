@@ -150,6 +150,8 @@ These are things to do when nearing the deadline (the deadline will be given to 
 * **Q**: Can IWM@NUS-OSS be done while on SIP/ATAP etc.?<br>
   **A**: Yes, if selected for IWM@NUS-OSS, you can do the work of the IWM while doing the internship (but outside of office hours) and register for the module officially in a subsequent semester.
 
+---
+
 ## {{ icon_tick }} Questions?
 
 * If you have questions, you can contact us at `nus-oss` at `comp.nus.edu.sg`
