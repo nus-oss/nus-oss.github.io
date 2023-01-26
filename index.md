@@ -76,7 +76,7 @@ Before you apply, ensure that you match both our expectations given below.
 
 
 **How to apply:**
-* SEP/ATAP internships (NUS students): Apply via the school's internship application system.
+* SIP/ATAP internships (NUS students): Apply via the school's internship application system.
 * Other full time internships: contact project mentor prof Damith (contact given below)
 * Part time work: After you have contributed a few PRs to any of the projects above, contact project mentor prof Damith (contact given below) to explore possibilities for paid internships.
 
