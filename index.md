@@ -52,7 +52,7 @@ There are several ways to earn modular credit for OSS work
 
 * [CS3281&2 (Thematic Systems Project)](https://nus-cs3281.github.io/website/) : In these two modules, student work on existing OSS projects, including NUS-OSS projects.
 * [CS2103R (Software Engineering - Research)](https://docs.google.com/document/d/1jY9gYuNP9GBpYlGaLGEaYjusrQfBolmluX1rSc9x9dM/pub?embedded=true) : This is a 1 MC add-on to CS2103/T that you can do in the year immediately after you completed CS2103.
-* [CP3108A/B (Independent Work, 2/4MC S/U)](http://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3108A), [CP3106 (Independent Work, 4MC, Graded)](https://www.comp.nus.edu.sg/cug/catalogue/idm/#CP3106) : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects. ==See [here](pages/iwm.html) for more info.==<br>
+* [CP3108A/B (Independent Work, 2/4MC CS/CU)](https://wiki.nus.edu.sg/display/SUW/Independent+Study+Modules), [CP3106 (Independent Work, 4MC, Graded)](https://wiki.nus.edu.sg/display/SUW/Independent+Study+Modules) : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects. ==See [here](pages/iwm.html) for more info.==<br>
   Note: Doing NUS-OSS project under these modules is available only in semester 1 (i.e., not available in semester 2) of each academic year, and only for students who have at least 4 more semesters left in their degree program.
 * [CP3200 (SIP)](https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/), [CP3880 (ATAP)](http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/) : Some of the NUS-OSS projects hire interns through these internship programs.
 * [FYP (CP4101)](https://www.comp.nus.edu.sg/programmes/ug/project/fyp/), [Computing Project (CP4106)](https://www.comp.nus.edu.sg/programmes/ug/project/cp4106/): Modules aimed at final year students.
@@ -76,7 +76,7 @@ Before you apply, ensure that you match both our expectations given below.
 
 
 **How to apply:**
-* SEP/ATAP internships (NUS students): Apply via the school's internship application system.
+* SIP/ATAP internships (NUS students): Apply via the school's internship application system.
 * Other full time internships: contact project mentor prof Damith (contact given below)
 * Part time work: After you have contributed a few PRs to any of the projects above, contact project mentor prof Damith (contact given below) to explore possibilities for paid internships.
 
