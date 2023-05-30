@@ -24,10 +24,10 @@
       "headingKeywords": {}
     },
     {
-      "src": "pages/iwm.md",
-      "title": "Independent Work Modules @NUS-OSS",
+      "src": "pages/isc.md",
+      "title": "Independent Study Courses @NUS-OSS",
       "headings": {
-        "independent-work-modules-nus-oss": "Independent Work Modules @NUS-OSS",
+        "independent-study-courses-nus-oss": "Independent Study Courses @NUS-OSS",
         "objectives": " Objectives",
         "prerequisites": " Prerequisites",
         "structure": " Structure",
@@ -41,6 +41,12 @@
         "faq": " FAQ",
         "questions": " Questions?"
       },
+      "headingKeywords": {}
+    },
+    {
+      "src": "pages/iwm.md",
+      "title": "Independent Work Modules @NUS-OSS",
+      "headings": {},
       "headingKeywords": {}
     }
   ]
