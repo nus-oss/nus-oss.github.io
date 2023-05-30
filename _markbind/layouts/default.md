@@ -6,7 +6,7 @@
   <navbar type="primary">
     <a slot="brand" href="{{baseUrl}}/index.md" title="NUS-OSS Home" class="navbar-brand">[NUS-OSS]</a>
     <li><a href="{{baseUrl}}/index.md" class="nav-link">Home</a></li>
-    <li><a href="{{baseUrl}}/pages/iwm.md" class="nav-link">IWM@NUS-OSS</a></li>
+    <li><a href="{{baseUrl}}/pages/isc.md" class="nav-link">ISC@NUS-OSS</a></li>
     <li slot="right">
       <form class="navbar-form">
         <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
