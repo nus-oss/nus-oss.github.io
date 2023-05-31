@@ -4,11 +4,11 @@
   pageNav: 2
 </frontmatter>
 
-{% set info_link = "https://wiki.nus.edu.sg/display/SUW/Independent+Study+Modules" %}
+{% set info_link = "https://www.comp.nus.edu.sg/programmes/ug/project/isc/" %}
 
 <h1 class="display-4">Independent Study Courses @NUS-OSS</h1>
 
-<p class="lead"><md>[CP3108A and CP3108B]({{ info_link }}) are _independent study_ courses (previously called independent work modules) run by the SoC UG office. To enroll in one of them, you first need to secure a project supervised by a professor. This page describes how to secure a place in an [NUS-OSS project](../index.html) (supervised by [prof Damith](https://www.comp.nus.edu.sg)) so that you can enroll in one of <tooltip content="Independent Study Courses">ISCs</tooltip>.</md></p>
+<p class="lead"><md>CP3108A and CP3108B are [_independent study_ courses]({{ info_link }}) (previously called independent work modules) run by the SoC UG office. To enroll in one of them, you first need to secure a project supervised by a professor. This page describes how to secure a place in an [NUS-OSS project](../index.html) (supervised by [prof Damith](https://www.comp.nus.edu.sg)) so that you can enroll in one of <tooltip content="Independent Study Courses">ISCs</tooltip>.</md></p>
 
 ---
 
@@ -48,7 +48,7 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
   * SSID: 2-3 slots/year (administered by Dr KAN Min-Yen)
   * TEAMMATES: 3-6 slots/year
 * CP3108A is worth 2M while CP3108B is worth 4MC. Both are graded CS/CU. More info given [here]({{ info_link }}) (requires login). The only difference between the two is the workload.<br>
-  FAQ: Can I do both courses? Yes. In addition, there is an option to do CP3108A first and, (without putting it in the transcript) extend it to CP3108B in a subsequent semester.
+  FAQ: Can I do both courses? Yes. In addition, there is an option to do CP3108A first and, extend it to CP3108B in a subsequent semester.
 * There are two main intakes for ISC@NUS-OSS:
   * **Summer intake**: You will do the bulk (>80%) of the work during the summer. You will be ==_officially_ enrolled in the <tooltip content="i.e., CP3108A/B">target course</tooltip> in semester 1== (i.e., Aug-Dec) of the following AY.
   * **Semester 1 intake**: You will enroll in the course, and do the work, during the semester 1 (i.e., Aug-Dec) itself.
@@ -62,7 +62,8 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
 
 * The _call for application_ for the summer intake will be sent out to year-2 computing students around late-May. In some years (if there are vacancies), another call for the semester 1 intake will be sent in late-July.
 * You can also apply any time using [this form](https://forms.gle/56mfhBmeksr2hju58) but the chance of acceptance is higher when applying during the summer period.
-* If you are selected (after some initial screening), we'll pass your name to the UG office so that they can preallocate the module to you, at the start of the corresponding semester.
+* If you are selected (after some initial screening), we'll pass your name to the UG office so that they can preallocate the module to you, at the start of the corresponding semester.<br>
+  ISC@NUS-OSS students **do not follow the normal ISC application procedure given [here]({{ info_link }})**.
 
 ---
 
