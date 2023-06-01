@@ -149,6 +149,9 @@ These are things to do when nearing the deadline (the deadline will be given to 
 * **Q**: Can ISC@NUS-OSS be done while on SIP/ATAP etc.?<br>
   **A**: Yes, if selected for ISC@NUS-OSS, you can do the work of the ISC while doing the internship (but outside of office hours) and register for the course officially in a subsequent semester.
 
+* **Q**: What if I plan to go SEP or NOC during the semester following the summer?<br>
+  **A**: You can do the ISC@NUS-OSS work during the summer, and register for the course officially after you are back from SEP/NOC. You cannot earn course credit for ISC@NUS-OSS for a semester in which you are not studying full-time in NUS.
+
 ---
 
 ## {{ icon_tick }} Questions?
