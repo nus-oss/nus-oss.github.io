@@ -61,9 +61,10 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
 ## {{ icon_tick }} Enrolling
 
 * The _call for application_ for the summer intake will be sent out to year-2 computing students around late-May. In some years (if there are vacancies), another call for the semester 1 intake will be sent in late-July.
-* You can also apply any time using [this form](https://forms.gle/56mfhBmeksr2hju58) but the chance of acceptance is higher when applying during the summer period.
-* If you are selected (after some initial screening), we'll pass your name to the UG office so that they can preallocate the module to you, at the start of the corresponding semester.<br>
-  ISC@NUS-OSS students **do not follow the normal ISC application procedure given [here]({{ info_link }})**.
+* **To apply, fill [this form](https://forms.gle/56mfhBmeksr2hju58)**. You can apply any time but the chance of acceptance is higher when applying during the summer period.<br>
+  Note that only _some_ applicants will be accepted for the program, as there will be many more applicants than vacancies.
+* ISC@NUS-OSS **<span class="text-danger">does not</span> follow the normal ISC application procedure** given [here]({{ info_link }}).<br>
+  Instead, we'll pass selected student list to the UG office so that they can pre-allocate the course (i.e., CS3108A or CS3108B) to you, at the start of the corresponding semester.
 
 ---
 

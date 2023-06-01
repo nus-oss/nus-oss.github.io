@@ -32,31 +32,31 @@ Note that in addition to the OSS projects listed above, there are many other OSS
 
 ## {{ icon_tick }} Benefits
 
-Doing work outside modules will set you apart from those who are only good in academic work and will increase your chances of getting,
+Doing work outside courses will set you apart from those who are only good in academic work and will increase your chances of getting,
 
 * paid internships in our OSS projects (more info [below](#paid-internships))
 * good internship offers from other companies for SIP/ATAP
-* entry to selection-based modules such as CS3281&2, CS3216, CS3217
-* tutorships in related modules
+* entry to selection-based courses such as CS3281&2, CS3216, CS3217
+* tutorships in related courses
 
 ## {{ icon_tick }} How to get started
 
 Each of the projects have their own documentation on how to get started.
 
-If you have limited experience outside project in school modules, you can start with a smaller project such as those in [SE-EDU](https://github.com/se-edu) and move to bigger projects after a while.
+If you have limited experience outside project in school courses, you can start with a smaller project such as those in [SE-EDU](https://github.com/se-edu) and move to bigger projects after a while.
 
 Vacations are especially good times to get started on our projects as our projects are more active during those times. We even have dedicated working space in school for those working on our projects during vacation times.
 
-## {{ icon_tick }} Earning modular credit
+## {{ icon_tick }} Earning course credit
 
 There are several ways to earn modular credit for OSS work
 
-* [CS3281&2 (Thematic Systems Project)](https://nus-cs3281.github.io/website/) : In these two modules, student work on existing OSS projects, including NUS-OSS projects.
+* [CS3281&2 (Thematic Systems Project)](https://nus-cs3281.github.io/website/) : In these two courses, student work on existing OSS projects, including NUS-OSS projects.
 * [CS2103R (Software Engineering - Research)](https://docs.google.com/document/d/1jY9gYuNP9GBpYlGaLGEaYjusrQfBolmluX1rSc9x9dM/pub?embedded=true) : This is a 1 MC add-on to CS2103/T that you can do in the year immediately after you completed CS2103.
-* [CP3108A/B (Independent Work, 2/4MC CS/CU)](https://wiki.nus.edu.sg/display/SUW/Independent+Study+Modules), [CP3106 (Independent Work, 4MC, Graded)](https://wiki.nus.edu.sg/display/SUW/Independent+Study+Modules) : These modules can be used to earn 2MC/4MC for work done in NUS-OSS projects. ==See [here](pages/isc.html) for more info.==<br>
-  Note: Doing NUS-OSS project under these modules is available only in semester 1 (i.e., not available in semester 2) of each academic year, and only for students who have at least 4 more semesters left in their degree program.
+* [CP3108A/B, 2/4MC CS/CU), CP3106 (4MC, Graded)]({{ info_link }}): These courses can be used to earn 2MC/4MC for work done in NUS-OSS projects. ==See [here](pages/isc.html) for more info.==<br>
+  Note: Doing NUS-OSS project under these courses is available only in semester 1 (i.e., not available in semester 2) of each academic year, and only for students who have at least 4 more semesters left in their degree program.
 * [CP3200 (SIP)](https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/), [CP3880 (ATAP)](http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/) : Some of the NUS-OSS projects hire interns through these internship programs.
-* [FYP (CP4101)](https://www.comp.nus.edu.sg/programmes/ug/project/fyp/), [Computing Project (CP4106)](https://www.comp.nus.edu.sg/programmes/ug/project/cp4106/): Modules aimed at final year students.
+* [FYP (CP4101)](https://www.comp.nus.edu.sg/programmes/ug/project/fyp/), [Computing Project (CP4106)](https://www.comp.nus.edu.sg/programmes/ug/project/cp4106/): Courses aimed at final year students.
 
 ## {{ icon_tick }} Paid internships
 
