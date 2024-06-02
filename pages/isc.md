@@ -45,14 +45,12 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
   * CATcher: 2-3 slots/year
   * MarkBind: 2-3 slots/year
   * RepoSense: 2-3 slots/year
-  * SSID: 2-3 slots/year (administered by Dr KAN Min-Yen)
   * TEAMMATES: 3-6 slots/year
 * CP3108A is worth 2M while CP3108B is worth 4MC. Both are graded CS/CU. More info given [here]({{ info_link }}) (requires login). The only difference between the two is the workload.<br>
   FAQ: Can I do both courses? Yes. In addition, there is an option to do CP3108A first and, extend it to CP3108B in a subsequent semester.
 * There are two main intakes for ISC@NUS-OSS:
   * **Summer intake**: You will do the bulk (>80%) of the work during the summer. You will be ==_officially_ enrolled in the <tooltip content="i.e., CP3108A/B">target course</tooltip> in semester 1== (i.e., Aug-Dec) of the following AY.
   * **Semester 1 intake**: You will enroll in the course, and do the work, during the semester 1 (i.e., Aug-Dec) itself.
-  * In addition to the above two main intakes, it is possible to do an ISC in the SSID project during semester 2 as well.
 * You are responsible for ensuring that you are officially eligible to take the target course.
     CP3108A/B enrollment is controlled by the SoC UG office (not by NUS-OSS or prof Damith).
 
