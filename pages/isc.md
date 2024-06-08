@@ -45,8 +45,8 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
   * CATcher: 2-3 slots/year
   * MarkBind: 2-3 slots/year
   * RepoSense: 2-3 slots/year
-  * TEAMMATES: 3-6 slots/year
-* CP3108A is worth 2M while CP3108B is worth 4MC. Both are graded CS/CU. More info given [here]({{ info_link }}) (requires login). The only difference between the two is the workload.<br>
+  * TEAMMATES: 2-3 slots/year
+* CP3108A is worth 2 units while CP3108B is worth 4 units. Both are graded CS/CU. More info given [here]({{ info_link }}) (requires login). The only difference between the two is the workload.<br>
   FAQ: Can I do both courses? Yes. In addition, there is an option to do CP3108A first and, extend it to CP3108B in a subsequent semester.
 * There are two main intakes for ISC@NUS-OSS:
   * **Summer intake**: You will do the bulk (>80%) of the work during the summer. You will be ==_officially_ enrolled in the <tooltip content="i.e., CP3108A/B">target course</tooltip> in semester 1== (i.e., Aug-Dec) of the following AY.
@@ -137,8 +137,8 @@ These are things to do when nearing the deadline (the deadline will be given to 
 * **Both quality and quantity** of work will be considered. Aim to get better over the course of the project. It's fine to make mistakes as long as you learn from them and avoid them later in the project.
 * **The level of competency gained** will matter too. It is better to do progressively deeper/harder/bigger PRs as you progress through the project, compared to doing a lot of simple PRs.
 * **The expected workload** is indicated by the modular credits.
-  * CP3108A (2MC): about 5 hours/week, over 10-12 weeks
-  * CP3108B (4MC): about 10 hours/week, over 10-12 weeks
+  * CP3108A (2 units): about 5 hours/week, over 10-12 weeks
+  * CP3108B (4 units): about 10 hours/week, over 10-12 weeks
 * You can ask prof if the work you have done so far is enough or whether you are progressing fast enough.
 
 ---
