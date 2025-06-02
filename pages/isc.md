@@ -1,14 +1,14 @@
 <frontmatter>
   title: "Independent Study Courses @NUS-OSS"
   footer: footer.md
-  pageNav: 2
+  pageNav: 3
 </frontmatter>
 
 {% set info_link = "https://www.comp.nus.edu.sg/programmes/ug/project/isc/" %}
 
 <h1 class="display-4">Independent Study Courses @NUS-OSS</h1>
 
-<p class="lead"><md>CP3108A and CP3108B are [_independent study_ courses]({{ info_link }}) (previously called independent work modules) run by the SoC UG office. To enroll in one of them, you first need to secure a project supervised by a professor. This page describes how to secure a place in an [NUS-OSS project](../index.html) (supervised by [prof Damith](https://www.comp.nus.edu.sg)) so that you can enroll in one of <tooltip content="Independent Study Courses">ISCs</tooltip>.</md></p>
+<p class="lead"><md>CP3108A and CP3108B are [_independent study_ courses]({{ info_link }}) (previously called independent work modules) run by the SoC UG office. To enroll in one of them, you first need to secure a project supervised by a professor. This page describes how to secure a place in an [NUS-OSS project](../index.html) so that you can enroll in one of <tooltip content="Independent Study Courses">ISCs</tooltip>.</md></p>
 
 ---
 
@@ -17,7 +17,7 @@
 Here are the intended objectives of doing an ISC in an NUS-OSS project (ISC@NUS-OSS for short):
 1. **To gain skills of an _OSS Contributor_**, which can boost your SE credentials, especially when you apply for internships or jobs in the near future.
 1. **To improve your chances of getting into CS3281&2.** Entry into [CS3281 and CS3282](https://nus-cs3281.github.io/website/admin/callForApplications.html) is highly competitive because the class size is only ~20 students. Given those courses are also based on NUS-OSS projects, ==an ISC@NUS-OSS can greatly enhance your chances of getting a place== in those courses.
-1. **To serve as the first step in securing a long-term role NUS-OSS project.** The typical path you can follow over the next few semesters is: contributor (via the ISC@NUS-OSS) →  developer → senior developer → lead developer → alumni mentor (after graduation). The work you do for NUS-OSS projects later can be paid as part-time work or can be used to earn more course credit through other course codes.
+1. **To serve as the first step in securing a long-term role NUS-OSS project.** The typical path you can follow over the next few semesters is: contributor (via the ISC@NUS-OSS) →  developer → senior developer → lead developer → alumni mentor (after graduation). The work you do for NUS-OSS projects later can be used to earn more course credit through other course codes.
 
 <box type="tip" seamless>
 
@@ -70,7 +70,7 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
 
 A student in ISC@NUS-OSS project goes through the following typical phases.
 
-### Phase 1: set up
+### Phase 1: Set up
 
 1. **Set up**
    * Locate the developer documentation of the project.
@@ -80,7 +80,7 @@ A student in ISC@NUS-OSS project goes through the following typical phases.
    * If you encounter any problems or need help, please post in the project's issue tracker or the discussion board (on GitHub).
 1. **Build** the product locally, and run the tests.
 
-### Phase 2: experiment
+### Phase 2: Experiment
 
 1. **Do a small _experimental_ enhancement** to the product (e.g., tweak the UI, improve an existing feature, add a new feature) as follows:
    1. Ensure the change is in a ==separate branch==.<br>
@@ -100,30 +100,49 @@ A student in ISC@NUS-OSS project goes through the following typical phases.
 2. **Send the PR link(s)** to the NUS-OSS team (email: `nus-oss` at `comp.nus.edu.sg`), when ready.<br>
    After that, wait for further instructions (which should reach you within 2-3 days).
 
-### Phase 3: contribute
+### Phase 3: Contribute
 
 This phase starts only after you have been accepted for an ISC@NUS-OSS slot, which in turn depends on your performance in the phase 2 above.
+
+**In this phase, you can do a mixture of [A] and [B] given further below.** You are expected to do at least one (the more, the better) PR for [A]. Doing [B] is optional but given your progress in [A] will be limited by how quickly you receive PR reviews from the dev team (who may be busy with internships etc. too), you are recommended to use [B] to compensate and still achieve the required progress/workload.
+
+<box>
+
+#### [A] Contribute PRs
 
 1. **Learn the workflow** and various conventions followed by the project. These are likely to be found among the dev docs of the project.
 1. **Start submitting PRs** for issues in the issue tracker of the project.
    * You can start with an issue set aside for new-comers (if any). Such issues usually have an indicative label e.g., `good first issue` or `d.FristTimers`.<br>
-   Do not do more than one such 'new-comers issue' though.
+   Do not do more than one such 'newcomers issue' though.
    * **Ask before starting** work on an issue, as some issues may be outdated. You can simply post in the same issue to ask if it is OK to work on it.
    * When choosing issues to work on, you can pick based on your interest %%e.g., if you are more interested in the front-end, you can pick issues related to the front-end%%.
-1. **Record progress** in an online document (e.g., a Google Doc) regularly.
-   * ==Suggested progress report template== is [here](https://docs.google.com/document/d/13C1IRkDGSmfEkQD9RQsJMaE-WU9xCRiedpu8FqdMBNs/edit?usp=sharing)  -- you can use the `File` -> `Make a copy` option to create your own copy (Google login required).
-   * Weekly updates is recommended. Work spanning at least 10 weeks is expected.
-   * Include links to PRs, external resources you referred, problems faced, solutions found, etc.
-1. **Send the link** to above document (view-only permission is enough) to the prof at the end of the first week.
 
-<box type="info" seamless>
+----
 
-**Project guidance** will be provided by senior dev team members, mostly in the form of PR reviews. You can also post in the issue tracker or the project discussion board (on GitHub) to ask for further guidance. After you've been added to the project's slack channel, you can ask questions through that too.<br>
-There are no lectures but you can arrange a meeting with the prof if needed.
+#### [B] Contribute a PoC feature
+
+In this path, you will implement a Proof-of-Concept (PoC) version of a feature/enhancement that may or may not be currently mentioned in the issue tracker or project road map. It is considered a PoC because merging it into the production version is not the intended end goal -- rather, the goal is to see the user-visible impact, effort required, impact on the code base etc. It is possible that the feature may eventually be merged too.
+
+1. **Propose a feature** (or a significant enhancement to an existing) feature. You can also propose multiple such features.
+2. **Get approval from the dev team** to go ahead. In case of multiple proposals in step 1, the dev team can help you prioritise them.
+3. **Implement the feature in your fork**, in a separate branch (similar to Phase 2).
+4. **Send a PR to the upstream repo** when the work is ready for review. Include screenshots/recordings of how the feature works.
 </box>
 
 
-### Phase 4: wrap up
+**Record progress** in an online document (e.g., a Google Doc) regularly. **Send the link** to above document (view-only permission is enough) to the prof at the end of the first week.
+* ==Suggested progress report template== is [here](https://docs.google.com/document/d/13C1IRkDGSmfEkQD9RQsJMaE-WU9xCRiedpu8FqdMBNs/edit?usp=sharing)  -- you can use the `File` -> `Make a copy` option to create your own copy (Google login required).
+* Weekly updates is recommended. Work spanning at least 10 weeks is expected.
+* Include links to PRs, external resources you referred, problems faced, solutions found, etc.
+
+<box type="info" seamless>
+
+**Project guidance** will be provided by senior dev team members, mostly in the form of PR reviews. You can also post in the issue tracker or the project discussion board (on GitHub) to ask for further guidance.<br>
+There are no lectures, but you can arrange a meeting with the prof if needed.
+</box>
+
+
+### Phase 4: Wrap up
 
 These are things to do when nearing the deadline (the deadline will be given to you at the start of phase 3).
 1. **Finish up** any ongoing PRs.

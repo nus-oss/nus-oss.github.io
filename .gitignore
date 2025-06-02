@@ -2,3 +2,4 @@
 *.iml
 _site/
 _markbind/logs/
+node_modules/

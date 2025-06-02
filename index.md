@@ -19,12 +19,12 @@ We have a number of OSS projects that are especially suitable for NUS students t
 
 Project(s) | KLoC | Languages | Description |
 --- | --- | --- | --- |
-[CATcher](https://github.com/CATcher-org/CATcher/) | 10 | TypeScript, Angular, Electron | A Desktop App for anonymous peer testing of software products. ([:fas-home: product website](https://catcher-org.github.io/), [:fab-github: project website](https://github.com/CATcher-org/CATcher/)). {{ mentor_damith }}|
-[MarkBind](https://markbind.org) | 10 | Node.js, HTML, JavaScript, CSS, Vue | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind)). {{ mentor_damith }}|
-[PowerPointLabs](http://www.comp.nus.edu.sg/~pptlabs/) | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefited more than **1,000,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)). {{ mentor_damith }}|
-[RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS, Vue | A tool to monitor contributions to multiple Git repositories. ([:fas-home: product website](https://reposense.org), [:fab-github: project website](https://github.com/reposense/reposense)). {{ mentor_damith }}|
-[SE-EDU](https://se-education.org) | 1-10 | Java, Jekyll | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org)). {{ mentor_damith }}|
-[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS, Google Cloud | An online feedback management system for education used by more than **1,000,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates)). {{ mentor_damith }} |
+[CATcher](https://github.com/CATcher-org/CATcher/) and [WATcher](https://github.com/CATcher-org/WATcher/) | 10 | TypeScript, Angular | A Desktop App for anonymous peer testing of software products. ([:fas-home: product website](https://catcher-org.github.io/), [:fab-github: project website](https://github.com/CATcher-org/CATcher/)).|
+[MarkBind](https://markbind.org) | 10 | Node.js, HTML, JavaScript, CSS, Vue | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind)).|
+[RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS, Vue | A tool to monitor contributions to multiple Git repositories. ([:fas-home: product website](https://reposense.org), [:fab-github: project website](https://github.com/reposense/reposense)).|
+[SE-EDU](https://se-education.org) | 1-10 | Java, Jekyll | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org)).|
+[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS, Google Cloud | An online feedback management system for education used by more than **1,200,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates)). |
+[~~PowerPointLabs~~](http://www.comp.nus.edu.sg/~pptlabs/) now defunct | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefited more than **1,000,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)).|
 
 Note that in addition to the OSS projects listed above, there are many other OSS projects based in NUS SoC.
 
@@ -32,10 +32,10 @@ Note that in addition to the OSS projects listed above, there are many other OSS
 
 Doing work outside courses will set you apart from those who are only good in academic work and will increase your chances of getting,
 
-* paid internships in our OSS projects (more info [below](#paid-internships))
 * good internship offers from other companies for SIP/ATAP
-* entry to selection-based courses such as CS3281&2, CS3216, CS3217
-* tutorships in related courses
+* entry to selection-based courses such as CS3281&2, CS3217
+* FYPs in NUS-OSS projects
+* tutor positions in related courses (CS2103/T, CS2113, CS3218&2)
 
 ## {{ icon_tick }} How to get started
 
@@ -56,6 +56,7 @@ There are several ways to earn course credit for OSS work
 * [CP3200 (SIP)](https://www.comp.nus.edu.sg/programmes/ug/beyond/sip/sip-is/), [CP3880 (ATAP)](http://www.comp.nus.edu.sg/programmes/ug/beyond/atap/student/) : Some of the NUS-OSS projects hire interns through these internship programs.
 * [FYP (CP4101)](https://www.comp.nus.edu.sg/programmes/ug/project/fyp/), [Computing Project (CP4106)](https://www.comp.nus.edu.sg/programmes/ug/project/cp4106/): Courses aimed at final year students.
 
+<!--
 ## {{ icon_tick }} Paid internships
 
 <img src="images/2017-interns.png" width="800"/><br>
@@ -79,6 +80,8 @@ Before you apply, ensure that you match both our expectations given below.
 * SIP/ATAP internships (NUS students): Apply via the school's internship application system.
 * Other full time internships: contact project mentor prof Damith (contact given below)
 * Part time work: After you have contributed a few PRs to any of the projects above, contact project mentor prof Damith (contact given below) to explore possibilities for paid internships.
+
+-->
 
 ## {{ icon_tick }} Queries
 
