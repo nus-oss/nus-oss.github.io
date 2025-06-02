@@ -104,11 +104,11 @@ A student in ISC@NUS-OSS project goes through the following typical phases.
 
 This phase starts only after you have been accepted for an ISC@NUS-OSS slot, which in turn depends on your performance in the phase 2 above.
 
-**In this phase, you can do a mixture of [A] and [B] given further below.** You are expected to do at least one (the more, the better) PR for [A]. Doing [B] is optional but given your progress in [A] will be limited by how quickly you receive PR reviews from the dev team (who may be busy with internships etc. too), you are recommended to use [B] to compensate and still achieve the required progress/workload.
+**In this phase, you can do a mixture of [3A] and [3B] given further below.** You are expected to do at least one (the more, the better) PR for [3A]. Doing [3B] is optional but given your progress in [3A] will be limited by how quickly you receive PR reviews from the dev team (who may be busy with internships etc. too), you are recommended to use [3B] to compensate and still achieve the required progress/workload.
 
 <box>
 
-#### [A] Contribute PRs
+#### [3A] Contribute PRs
 
 1. **Learn the workflow** and various conventions followed by the project. These are likely to be found among the dev docs of the project.
 1. **Start submitting PRs** for issues in the issue tracker of the project.
@@ -119,7 +119,7 @@ This phase starts only after you have been accepted for an ISC@NUS-OSS slot, whi
 
 ----
 
-#### [B] Contribute a PoC feature
+#### [3B] Contribute a PoC feature
 
 In this path, you will implement a Proof-of-Concept (PoC) version of a feature/enhancement that may or may not be currently mentioned in the issue tracker or project road map. It is considered a PoC because merging it into the production version is not the intended end goal -- rather, the goal is to see the user-visible impact, effort required, impact on the code base etc. It is possible that the feature may eventually be merged too.
 
