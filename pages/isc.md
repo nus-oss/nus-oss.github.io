@@ -123,7 +123,7 @@ This phase starts only after you have been accepted for an ISC@NUS-OSS slot, whi
 
 In this path, you will implement a Proof-of-Concept (PoC) version of a feature/enhancement that may or may not be currently mentioned in the issue tracker or project road map. It is considered a PoC because merging it into the production version is not the intended end goal -- rather, the goal is to see the user-visible impact, effort required, impact on the code base etc. It is possible that the feature may eventually be merged too.
 
-1. **Propose a feature** (or a significant enhancement to an existing) feature. You can also propose multiple such features.
+1. **Propose a feature** (or a significant enhancement to an existing) feature. You can also propose multiple such features. This can also be an expanded version of the enhancement you did in phase 2.
 2. **Get approval from the dev team** to go ahead. In case of multiple proposals in step 1, the dev team can help you prioritise them.
 3. **Implement the feature in your fork**, in a separate branch (similar to Phase 2).
 4. **Send a PR to the upstream repo** when the work is ready for review. Include screenshots/recordings of how the feature works.
