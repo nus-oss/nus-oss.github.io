@@ -19,12 +19,13 @@ We have a number of OSS projects that are especially suitable for NUS students t
 
 Project(s) | KLoC | Languages | Description |
 --- | --- | --- | --- |
-[CATcher](https://github.com/CATcher-org/CATcher/) and [WATcher](https://github.com/CATcher-org/WATcher/) | 10 | TypeScript, Angular | A Desktop App for anonymous peer testing of software products. ([:fas-home: product website](https://catcher-org.github.io/), [:fab-github: project website](https://github.com/CATcher-org/CATcher/)).|
+[Git-Mastery](https://git-mastery.github.io) | 10 | Python | A resource and a companion app for learning and practicing Git|
 [MarkBind](https://markbind.org) | 10 | Node.js, HTML, JavaScript, CSS, Vue | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind)).|
 [RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS, Vue | A tool to monitor contributions to multiple Git repositories. ([:fas-home: product website](https://reposense.org), [:fab-github: project website](https://github.com/reposense/reposense)).|
 [SE-EDU](https://se-education.org) | 1-10 | Java, Jekyll | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org)).|
-[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS, Google Cloud | An online feedback management system for education used by more than **1,200,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates)). |
-[~~PowerPointLabs~~](http://www.comp.nus.edu.sg/~pptlabs/) now defunct | 60 | C# | A productivity plugin for Microsoft Powerpoint estimated to have benefited more than **1,000,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)).|
+[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS, Google Cloud | An online feedback management system for education used by more than **1,300,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates)). |
+[~~PowerPointLabs~~](http://www.comp.nus.edu.sg/~pptlabs/) now defunct | 60 | C# | A productivity plugin for Microsoft PowerPoint estimated to have benefited more than **1,000,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)).|
+[WATcher](https://github.com/CATcher-org/WATcher/) | 10 | TypeScript, Angular | An app for monitoring team projects on GitHub. ([:fab-github: project website](https://github.com/CATcher-org/WATcher/)).|
 
 Note that in addition to the OSS projects listed above, there are many other OSS projects based in NUS SoC.
 
