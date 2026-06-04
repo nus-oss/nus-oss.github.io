@@ -42,10 +42,10 @@ Given below are the prerequisites that you need to satisfy to be eligible for an
 ## {{ icon_tick }} Structure
 
 * ISC slots are available in the following [NUS-OSS projects](../index.html#projects):
-  * CATcher: 2-3 slots/year
-  * MarkBind: 2-3 slots/year
-  * RepoSense: 2-3 slots/year
-  * TEAMMATES: 2-3 slots/year
+  * Git-Mastery: 2-4 slots/year
+  * MarkBind: 2-4 slots/year
+  * RepoSense: 2-4 slots/year
+  * TEAMMATES: 4-6 slots/year
 * CP3108A is worth 2 units while CP3108B is worth 4 units. Both are graded CS/CU. More info given [here]({{ info_link }}) (requires login). The only difference between the two is the workload.<br>
   FAQ: Can I do both courses? Yes. In addition, there is an option to do CP3108A first and, extend it to CP3108B in a subsequent semester.
 * There are two main intakes for ISC@NUS-OSS:
@@ -82,7 +82,7 @@ A student in ISC@NUS-OSS project goes through the following typical phases.
 
 ### Phase 2: Experiment
 
-1. **Do a small _experimental_ enhancement** to the product (e.g., tweak the UI, improve an existing feature, add a new feature) as follows:
+**Step 1. Do a small _experimental_ enhancement** to the product (e.g., tweak the UI, improve an existing feature, add a new feature -- if you are targeting the Git-Mastery the project, you can design and implement a new exercise for students) as follows:
    1. Ensure the change is in a ==separate branch==.<br>
       As this enhancement is not meant to be merged, it is optional to update/add tests, to get CI to pass, or to update documentation.
    1. Push the branch to your fork.
@@ -97,7 +97,7 @@ A student in ISC@NUS-OSS project goes through the following typical phases.
   * positive/useful enhancements are preferred over <tooltip content="a change that makes the product worse">negative</tooltip>/useless ones.
 </box>
 
-2. **Send the PR link(s)** to the NUS-OSS team (email: `nus-oss` at `comp.nus.edu.sg`), when ready.<br>
+**Step 2. Send the PR link(s)** to the NUS-OSS team (email: `damith` at `comp.nus.edu.sg`), when ready.<br>
    After that, wait for further instructions (which should reach you within 2-3 days).
 
 ### Phase 3: Contribute
@@ -124,7 +124,7 @@ This phase starts only after you have been accepted for an ISC@NUS-OSS slot, whi
 In this path, you will implement a Proof-of-Concept (PoC) version of a feature/enhancement that may or may not be currently mentioned in the issue tracker or project road map. It is considered a PoC because merging it into the production version is not the intended end goal -- rather, the goal is to see the user-visible impact, effort required, impact on the code base etc. It is possible that the feature may eventually be merged too.
 
 1. **Propose a feature** (or a significant enhancement to an existing) feature. You can also propose multiple such features. This can also be an expanded version of the enhancement you did in phase 2.
-2. **Get approval from the dev team** to go ahead. In case of multiple proposals in step 1, the dev team can help you prioritise them. You can document the feature proposal in your project report GDoc (or post it as an issue in your own repo) and email the link to `nus-oss` [at] `comp.nus.edu.sg`, requesting feedback/approval.
+2. **Get approval from the dev team** to go ahead. In case of multiple proposals in step 1, the dev team can help you prioritise them. You can document the feature proposal in your project report GDoc (or post it as an issue in your own repo) and email the link to `damith` [at] `comp.nus.edu.sg`, requesting feedback/approval.
 3. **Implement the feature in your fork**, in a separate branch (similar to Phase 2).
 4. **Send a PR to the upstream repo** when the work is ready for review. Include screenshots/recordings of how the feature works.
 </box>
@@ -174,4 +174,4 @@ These are things to do when nearing the deadline (the deadline will be given to 
 
 ## {{ icon_tick }} Questions?
 
-* If you have questions, you can contact us at `nus-oss` at `comp.nus.edu.sg`
+* If you have questions, you can contact us at `damith` at `comp.nus.edu.sg`

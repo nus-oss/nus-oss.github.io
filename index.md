@@ -17,15 +17,23 @@ We have a number of OSS projects that are especially suitable for NUS students t
 
 {% set mentor_damith = "Mentor: [Dr. Damith](http://www.comp.nus.edu.sg/~damithch)" %}
 
+**Currently active projects:**
+
 Project(s) | KLoC | Languages | Description |
 --- | --- | --- | --- |
-[Git-Mastery](https://git-mastery.github.io) | 10 | Python | A resource and a companion app for learning and practicing Git|
-[MarkBind](https://markbind.org) | 10 | Node.js, HTML, JavaScript, CSS, Vue | A tool for generating educational websites from Markdown syntax. ([:fas-home: product website](https://markbind.org/), [:fab-github: project website](https://github.com/markbind/markbind)).|
-[RepoSense](https://reposense.org) | 10 | Java, Javascript, HTML, CSS, Vue | A tool to monitor contributions to multiple Git repositories. ([:fas-home: product website](https://reposense.org), [:fab-github: project website](https://github.com/reposense/reposense)).|
+[CustardUI](https://custardui.js.org) | 10 | TypeScript, CSS | A plugin allowing users to tweak the browser-side view of a static website.<br>→ [:fas-home: product website](https://custardui.js.org) / [:fab-github: dev docs](https://custardui.js.org/devGuide/devGuide.html)|
+[Git-Mastery](https://git-mastery.github.io) | 10 | Python | A resource and a companion app for learning and practicing Git.<br>→ [:fas-home: product website](https://git-mastery.github.io) / [:fab-github: dev docs](https://git-mastery.github.io/developers/)|
+[MarkBind](https://markbind.org) | 10 | Node.js, HTML, JavaScript, CSS, Vue | A tool for generating educational websites from Markdown syntax. <br>→ [:fas-home: product website](https://markbind.org/) / [:fab-github: project website](https://github.com/markbind/markbind).|
 [SE-EDU](https://se-education.org) | 1-10 | Java, Jekyll | A collection of sample projects and other resources for SE students and teachers  ([:fas-home: website](https://se-education.org)).|
-[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS, Google Cloud | An online feedback management system for education used by more than **1,300,000** users ([:fas-home: product website](https://teammatesv4.appspot.com/), [:fab-github: project website](https://github.com/teammates/teammates)). |
-[~~PowerPointLabs~~](http://www.comp.nus.edu.sg/~pptlabs/) now defunct | 60 | C# | A productivity plugin for Microsoft PowerPoint estimated to have benefited more than **1,000,000** people ([:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/), [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs)).|
-[WATcher](https://github.com/CATcher-org/WATcher/) | 10 | TypeScript, Angular | An app for monitoring team projects on GitHub. ([:fab-github: project website](https://github.com/CATcher-org/WATcher/)).|
+[TEAMMATES](https://teammatesv4.appspot.com/) | 125 | Java EE, Angular, Javascript, HTML, CSS, Google Cloud | An online feedback management system for education used by more than **1,300,000** users.<br>→ [:fas-home: product website](https://teammatesv4.appspot.com/) / [:fab-github: project website](https://github.com/teammates/teammates) |
+
+%%**Low-activity projects** (not accepting PRs at this time):%%
+
+%%Project(s)%% | %%KLoC%% | %%Languages%% | %%Description%% |
+--- | --- | --- | --- |
+[RepoSense](https://reposense.org) (low-activity mode) | 10 | Java, Javascript, HTML, CSS, Vue | A tool to monitor contributions to multiple Git repositories.<br>→  [:fas-home: product website](https://reposense.org) / [:fab-github: project website](https://github.com/reposense/reposense)|
+[~~PowerPointLabs~~](http://www.comp.nus.edu.sg/~pptlabs/) (now defunct) | 60 | C# | A productivity plugin for Microsoft PowerPoint estimated to have benefited more than **1,000,000** people.<br>→ [:fas-home: product website](http://www.comp.nus.edu.sg/~pptlabs/) / [:fab-github: project website](https://github.com/powerpointlabs/powerpointlabs))|
+[~~WATcher~~](https://github.com/CATcher-org/WATcher/)  (now defunct) | 10 | TypeScript, Angular | An app for monitoring team projects on GitHub<br>→ [:fab-github: project website](https://github.com/CATcher-org/WATcher/)|
 
 Note that in addition to the OSS projects listed above, there are many other OSS projects based in NUS SoC.
 
@@ -86,4 +94,4 @@ Before you apply, ensure that you match both our expectations given below.
 
 ## {{ icon_tick }} Queries
 
-If you have questions, please contact project mentor [Dr Damith](http://www.comp.nus.edu.sg/~damithch) or write to `nus-oss`at`comp.nus.edu.sg`.
+If you have questions, please contact project mentor [Dr Damith](http://www.comp.nus.edu.sg/~damithch).
